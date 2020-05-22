@@ -1,8 +1,21 @@
 [
   {
-    "name": "Nodejs"
+    "id": "nodejs",
+    "title": "Node.js®",
+    "subtitle": "A JavaScript runtime",
+    "summary": "I would like to run my test using Node.js.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://nodejs.org/en/",
+    "maintained": "OpenJS Foundation",
+    "avatar": "https://github.com/e2e-boilerplate/api/tree/master/images/nodejs.png"
   },
   {
-    "name": "Browser"
+    "id": "browser",
+    "title": "Browser",
+    "subtitle": "A Web browser",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "https://en.wikipedia.org/wiki/Web_browser",
+    "link": "https://en.wikipedia.org/wiki/Web_browser",
+    "maintained": "Not applicable"
   }
 ]
