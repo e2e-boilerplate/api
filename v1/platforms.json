@@ -6,6 +6,7 @@
     "summary": "I would like to run my test using Node.js.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://nodejs.org/en/",
+    "domain": "nodejs.org",
     "maintained": "OpenJS Foundation",
     "avatar": "https://raw.githubusercontent.com/e2e-boilerplate/api/master/images/nodejs.png"
   },
@@ -13,9 +14,10 @@
     "id": "browser",
     "title": "Browser",
     "subtitle": "A Web browser",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "description": "https://en.wikipedia.org/wiki/Web_browser",
+    "summary": "I would like to run my test inside a Browser",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://en.wikipedia.org/wiki/Web_browser",
+    "domain": "wikipedia.org",
     "maintained": "Not applicable"
   }
 ]
