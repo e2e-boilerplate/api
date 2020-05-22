@@ -16,5 +16,9 @@ jobs:
           run: npm install
           env:
             CI: true
-      - name: deploye
-        run: npm run deploye
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist/apps/picker
