@@ -7,7 +7,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://nodejs.org/en/",
     "maintained": "OpenJS Foundation",
-    "avatar": "https://github.com/e2e-boilerplate/api/tree/master/images/nodejs.png"
+    "avatar": "https://raw.githubusercontent.com/e2e-boilerplate/api/master/images/nodejs.png"
   },
   {
     "id": "browser",
