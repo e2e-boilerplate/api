@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Static data source.",
+  "main": "index.js",
+  "scripts": {
+    "deploye": "npx gh-pages -d api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/api.git"
+  },
+  "keywords": [],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/api/issues"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/api#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
