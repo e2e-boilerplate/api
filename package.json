@@ -4,7 +4,7 @@
   "description": "Static data source.",
   "main": "index.js",
   "scripts": {
-    "deploye": "node index.js"
+    "deploye": "node ."
   },
   "repository": {
     "type": "git",
