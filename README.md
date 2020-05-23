@@ -1,6 +1,6 @@
 # API
-Static data source.
+Static data source. [link](https://e2e-boilerplate.github.io/api/)
 
 ## Platforms
 
-    GET 
+    GET https://e2e-boilerplate.github.io/api/v1/platforms.json
