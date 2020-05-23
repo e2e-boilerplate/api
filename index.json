@@ -1,5 +1,8 @@
-[
-  {
-    "test": "test"
-  }
-]
+{
+  "get": [
+    {
+      "platforms": "https://e2e-boilerplate.github.io/api/v1/platforms.json",
+      "frameworks": "https://e2e-boilerplate.github.io/api/v1/frameworks.json"
+    }
+  ]
+}
