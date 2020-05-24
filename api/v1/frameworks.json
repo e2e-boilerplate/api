@@ -24,7 +24,7 @@
   {
     "id": "playwright",
     "title": "Playwright",
-    "subtitle": "built to enable cross-browser web automation",
+    "subtitle": "Built to enable cross-browser web automation",
     "summary": "Lorem ipsum dolor sit amet ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://playwright.dev",
@@ -35,7 +35,7 @@
   {
     "id": "protractor",
     "title": "Protractor",
-    "subtitle": "end-to-end test framework for Angular and AngularJS",
+    "subtitle": "End-to-end test framework for Angular and AngularJS",
     "summary": "Lorem ipsum dolor sit amet ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://www.protractortest.org/#/",
@@ -57,7 +57,7 @@
   {
     "id": "testcafe",
     "title": "TestCafé",
-    "subtitle": "automate end-to-end web testing",
+    "subtitle": "Automate end-to-end web testing",
     "summary": "Lorem ipsum dolor sit amet ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "ttps://devexpress.github.io/testcafe/",
@@ -68,7 +68,7 @@
   {
     "id": "WD",
     "title": "WD.js",
-    "subtitle": "node.js Webdriver/Selenium 2 client",
+    "subtitle": "Node.js Webdriver/Selenium 2 client",
     "summary": "Lorem ipsum dolor sit amet ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://github.com/admc/wd",
@@ -79,7 +79,7 @@
   {
     "id": "webdriverio",
     "title": "WebdriverIO",
-    "subtitle": "node.js Webdriver/Selenium 2 client",
+    "subtitle": "Next-gen browser and mobile automation",
     "summary": "Lorem ipsum dolor sit amet ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://webdriver.io",
