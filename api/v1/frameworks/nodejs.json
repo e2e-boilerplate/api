@@ -24,23 +24,12 @@
   {
     "id": "protractor",
     "title": "Protractor",
-    "subtitle": "End-to-end test framework for Angular and AngularJS",
+    "subtitle": "e2e test framework for Angular and AngularJS",
     "summary": "Lorem ipsum dolor sit amet ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "link": "https://www.protractortest.org/#/",
     "domain": "protractortest.org",
     "maintained": "Google",
-    "avatar": "false"
-  },
-  {
-    "id": "selenium-webdriver",
-    "title": "Selenium Webdriver",
-    "subtitle": "A browser automation library",
-    "summary": "Lorem ipsum dolor sit amet ...",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://www.selenium.dev",
-    "domain": "selenium.dev",
-    "maintained": "ThoughtWorks",
     "avatar": "false"
   },
   {
@@ -52,17 +41,6 @@
     "link": "ttps://devexpress.github.io/testcafe/",
     "domain": "devexpress.github.io",
     "maintained": "ThoughtWorks",
-    "avatar": "false"
-  },
-  {
-    "id": "WD",
-    "title": "WD.js",
-    "subtitle": "Node.js Webdriver/Selenium 2 client",
-    "summary": "Lorem ipsum dolor sit amet ...",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://github.com/admc/wd",
-    "domain": "github.com/admc",
-    "maintained": "Adam Christian et al",
     "avatar": "false"
   },
   {
