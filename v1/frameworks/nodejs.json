@@ -53,5 +53,16 @@
     "domain": "webdriver.io",
     "maintained": "OpenJS Foundation",
     "avatar": "false"
+  },
+  {
+    "id": "noframework",
+    "title": "No Framework",
+    "subtitle": "Use WebbDriver API directly",
+    "summary": "Lorem ipsum dolor sit amet ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://www.w3.org/TR/webdriver/",
+    "domain": "w3.org",
+    "maintained": "Not Applicable",
+    "avatar": "false"
   }
 ]
