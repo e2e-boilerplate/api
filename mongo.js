@@ -29,3 +29,12 @@ client.connect(err => {
         client.close();
     });
 });
+
+// UPDATE
+// client.connect(err => {
+//     const collection = client.db("picker").collection("click");
+//     collection.updateOne({ name: "nodejs" }, { $inc: { count: 1} }, (err, res) => {
+//         if (err) throw err;
+//         client.close();
+//     });
+// });
