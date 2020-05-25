@@ -1,6 +1,6 @@
 [
   {
-    "id": "selenium-webdriver",
+    "id": "seleniumwebdriver",
     "title": "Selenium Webdriver",
     "subtitle": "A browser automation library",
     "summary": "Lorem ipsum dolor sit amet ...",
@@ -11,7 +11,7 @@
     "avatar": "false"
   },
   {
-    "id": "WD",
+    "id": "wd",
     "title": "WD.js",
     "subtitle": "Node.js Webdriver/Selenium 2 client",
     "summary": "Lorem ipsum dolor sit amet ...",

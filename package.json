@@ -4,7 +4,8 @@
   "description": "Static data source.",
   "main": "index.js",
   "scripts": {
-    "deploye": "node ."
+    "deploye": "node .",
+    "db:reset": "node ./mongo"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
     "hooks": {
       "pre-commit": "npm run deploye"
     }
+  },
+  "dependencies": {
+    "mongodb": "^3.5.7"
   }
 }
