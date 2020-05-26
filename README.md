@@ -9,4 +9,10 @@ Static data source. [link](https://e2e-boilerplate.github.io/api/)
     
     GET https://e2e-boilerplate.github.io/api/v1/frameworks/{name}.json
     
-    GET https://e2e-boilerplate.github.io/api/v1/frameworks/nodejs/none.json
+name { nodejs, browser}
+
+## No Frameworks
+
+    GET GET https://e2e-boilerplate.github.io/api/v1/noframework/{name}.json
+
+name { nodejs, browser}
