@@ -13,6 +13,6 @@ name { nodejs, browser}
 
 ## No Frameworks
 
-    GET GET https://e2e-boilerplate.github.io/api/v1/noframework/{name}.json
+    GET https://e2e-boilerplate.github.io/api/v1/noframework/{name}.json
 
 name { nodejs, browser}
