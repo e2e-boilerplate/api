@@ -11,7 +11,7 @@
     "avatar": "false"
   },
   {
-    "id": "esnext",
+    "id": "es-module",
     "title": "ES Next",
     "subtitle": "Next version of ECMAScript",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
