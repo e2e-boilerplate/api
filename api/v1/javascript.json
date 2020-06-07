@@ -1,6 +1,6 @@
 [
   {
-    "id": "javascript",
+    "id": "commonjs",
     "title": "JavaScript",
     "subtitle": "Standard JavaScript",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
@@ -11,7 +11,7 @@
     "avatar": "false"
   },
   {
-    "id": "es-module",
+    "id": "es-modules",
     "title": "ES Next",
     "subtitle": "Next version of ECMAScript",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
