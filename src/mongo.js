@@ -19,9 +19,28 @@ const data = [
     {name: "seleniumwebdriver", count: 0},
     {name: "typescript", count: 0},
     {name: "wd", count: 0},
+    {name: "assert", count: 0},
+    {name: "expect", count: 0},
+    {name: "should", count: 0},
+    {name: "browserify", count: 0},
+    {name: "webpack", count: 0},
+    {name: "webdriver-manager", count: 0},
+    {name: "chai", count: 0},
+    {name: "cucumber", count: 0},
+    {name: "jest", count: 0},
+    {name: "jasmine", count: 0},
+    {name: "ava", count: 0},
+    {name: "mocha", count: 0},
+    {name: "tape", count: 0},
+    {name: "babel", count: 0},
+    {name: "tsc", count: 0},
+    {name: "esm", count: 0},
+    {name: "ts-jest", count: 0},
+    {name: "ts-node", count: 0},
+    {name: "babel-jest", count: 0},
 ];
 
-// To reset db once development finished
+// To reset db once development finished WIP
 client.connect(err => {
     const collection = client.db("picker").collection("click");
     collection.insertMany(data, (err, res) => {
@@ -30,11 +49,11 @@ client.connect(err => {
     });
 });
 
-// UPDATE
-// client.connect(err => {
-//     const collection = client.db("picker").collection("click");
-//     collection.updateOne({ name: "nodejs" }, { $inc: { count: 1} }, (err, res) => {
-//         if (err) throw err;
-//         client.close();
-//     });
-// });
+// UPDATE WIP
+client.connect(err => {
+    const collection = client.db("picker").collection("click");
+    collection.updateOne({ name: "nodejs" }, { $inc: { count: 1} }, (err, res) => {
+        if (err) throw err;
+        client.close();
+    });
+});
