@@ -6,6 +6,9 @@
   "scripts": {
     "deploye": "node .",
     "db:reset": "node ./mongo",
+    "platform": "node src/platform.js",
+    "browser": "node src/browser.js",
+    "nodejs": "node src/nodejs.js",
     "cypress": "node src/cypress.js"
   },
   "repository": {
