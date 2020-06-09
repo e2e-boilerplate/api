@@ -6,6 +6,7 @@
   "scripts": {
     "deploye": "node .",
     "db:reset": "node ./mongo",
+    "doc": "node src/doc.js",
     "platform": "node src/platform.js",
     "browser": "node src/browser.js",
     "nodejs": "node src/nodejs.js",
@@ -34,6 +35,7 @@
     }
   },
   "dependencies": {
+    "glob": "^7.1.6",
     "mongodb": "^3.5.7"
   }
 }
