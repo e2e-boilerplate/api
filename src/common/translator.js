@@ -1,4 +1,4 @@
-export const BABEL = {
+const BABEL = {
     "id": "babel",
     "title": "Babel",
     "subtitle": "Use next generation JavaScript, today.",
@@ -10,7 +10,7 @@ export const BABEL = {
     "avatar": "false"
 }
 
-export const TSC = {
+const TSC = {
     "id": "tsc",
     "title": "TSC",
     "subtitle": "TypeScript compiler",
@@ -22,7 +22,7 @@ export const TSC = {
     "avatar": "false"
 }
 
-export const ESM = {
+const ESM = {
     "id": "esm",
     "title": "ESM",
     "subtitle": "bundle-less ECMAScript module loader",
@@ -34,7 +34,7 @@ export const ESM = {
     "avatar": "false"
 }
 
-export const TSJEST = {
+const TSJEST = {
     "id": "ts-jest",
     "title": "ts-jest",
     "subtitle": "TypeScript preprocessor for Jest ",
@@ -46,7 +46,7 @@ export const TSJEST = {
     "avatar": "false"
 }
 
-export const TSNODE = {
+const TSNODE = {
     "id": "ts-node",
     "title": "ts-node",
     "subtitle": "TypeScript execution and REPL for node.js",
@@ -58,7 +58,7 @@ export const TSNODE = {
     "avatar": "false"
 }
 
-export const BABELJEST = {
+const BABELJEST = {
     "id": "babel-jest",
     "title": "babel-jest",
     "subtitle": "Babel jest plugin",
@@ -69,3 +69,5 @@ export const BABELJEST = {
     "maintained": "Facebook",
     "avatar": "false"
 }
+
+module.exports = { BABEL, TSC, ESM, TSJEST, TSNODE, BABELJEST };

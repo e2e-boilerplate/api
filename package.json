@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "deploye": "node .",
-    "db:reset": "node ./mongo"
+    "db:reset": "node ./mongo",
+    "cypress": "node src/cypress.js"
   },
   "repository": {
     "type": "git",

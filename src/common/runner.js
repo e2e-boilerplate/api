@@ -1,4 +1,4 @@
-export const CHAI = {
+const CHAI = {
     "id": "chai",
     "title": "Chai",
     "subtitle": "A BDD / TDD assertion library",
@@ -10,7 +10,7 @@ export const CHAI = {
     "avatar": "false"
 }
 
-export const CUCUMBER = {
+const CUCUMBER = {
     "id": "cucumber",
     "title": "Cucumber.js",
     "subtitle": "Automated tests written in plain language.",
@@ -22,7 +22,7 @@ export const CUCUMBER = {
     "avatar": "false"
 }
 
-export const JEST = {
+const JEST = {
     "id": "jest",
     "title": "Jest",
     "subtitle": "Delightful JavaScript Testing.",
@@ -34,7 +34,7 @@ export const JEST = {
     "avatar": "false"
 }
 
-export const JASMINE = {
+const JASMINE = {
     "id": "jasmine",
     "title": "Jasmine",
     "subtitle": "Behavior-Driven JavaScript.",
@@ -46,7 +46,7 @@ export const JASMINE = {
     "avatar": "false"
 }
 
-export const AVA = {
+const AVA = {
     "id": "ava",
     "title": "AVA",
     "subtitle": "Concise API",
@@ -58,7 +58,7 @@ export const AVA = {
     "avatar": "false"
 }
 
-export const MOCHA = {
+const MOCHA = {
     "id": "mocha",
     "title": "Mocha",
     "subtitle": "Feature-rich JavaScript test framework.",
@@ -70,7 +70,7 @@ export const MOCHA = {
     "avatar": "false"
 }
 
-export const TAPE = {
+const TAPE = {
     "id": "tape",
     "title": "Tape",
     "subtitle": "tap-producing test harness for node and browsers",
@@ -81,3 +81,5 @@ export const TAPE = {
     "maintained": "James Halliday et al.",
     "avatar": "false"
 }
+
+module.exports = { CHAI, CUCUMBER, JEST, JASMINE, AVA, MOCHA, TAPE } ;

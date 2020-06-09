@@ -1,4 +1,4 @@
-export const BROWSERIFY = {
+const BROWSERIFY = {
     "id": "browserify",
     "title": "Browserify",
     "subtitle": "Dorganize your browser code and load modules",
@@ -10,7 +10,7 @@ export const BROWSERIFY = {
     "avatar": "false"
 }
 
-export const WEBPACK = {
+const WEBPACK = {
     "id": "webpack",
     "title": "Webpack",
     "subtitle": "A static module bundler.",
@@ -22,7 +22,7 @@ export const WEBPACK = {
     "avatar": "false"
 }
 
-export const WEBDRIVERMANAGER = {
+const WEBDRIVERMANAGER = {
     "id": "webdriver-manager",
     "title": "webdriver-manager",
     "subtitle": "A selenium server and browser driver manager.",
@@ -33,3 +33,5 @@ export const WEBDRIVERMANAGER = {
     "maintained": "Google",
     "avatar": "false"
 }
+
+module.exports = { BROWSERIFY, WEBPACK, WEBDRIVERMANAGER };

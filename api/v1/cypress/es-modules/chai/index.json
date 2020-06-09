@@ -1,4 +1,5 @@
-const ASSERT = {
+[
+  {
     "id": "assert",
     "title": "Assert",
     "subtitle": "Delightful JavaScript Testing.",
@@ -8,9 +9,8 @@ const ASSERT = {
     "domain": "nodejs.org",
     "maintained": "OpenJS Foundation",
     "avatar": "false"
-}
-
-const EXPECT = {
+  },
+  {
     "id": "expect",
     "title": "Assert",
     "subtitle": "Delightful JavaScript Testing.",
@@ -20,9 +20,8 @@ const EXPECT = {
     "domain": "chaijs.com",
     "maintained": "Jake Luer et al.",
     "avatar": "false"
-}
-
-const SHOULD = {
+  },
+  {
     "id": "should",
     "title": "Should.js",
     "subtitle": "Expressive, readable, framework-agnostic",
@@ -32,6 +31,5 @@ const SHOULD = {
     "domain": "shouldjs.github.io",
     "maintained": "TJ Holowaychuk et al.",
     "avatar": "false"
-}
-
-module.exports = { ASSERT, EXPECT, SHOULD };
+  }
+]
