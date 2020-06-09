@@ -1,35 +1,35 @@
 [
   {
-    "id": "assert",
-    "title": "Assert",
-    "subtitle": "Delightful JavaScript Testing.",
+    "id": "browserify",
+    "title": "Browserify",
+    "subtitle": "Dorganize your browser code and load modules",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://nodejs.org/api/assert.html",
-    "domain": "nodejs.org",
-    "maintained": "OpenJS Foundation",
+    "link": "http://browserify.org",
+    "domain": "browserify.org",
+    "maintained": "James Halliday et al.",
     "avatar": "false"
   },
   {
-    "id": "expect",
-    "title": "Expect",
-    "subtitle": "Chainable language to construct assertions.",
+    "id": "null",
+    "title": "Browserify",
+    "subtitle": "Dorganize your browser code and load modules",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://www.chaijs.com/api/bdd/",
-    "domain": "chaijs.com",
-    "maintained": "Jake Luer et al.",
+    "link": "http://browserify.org",
+    "domain": "browserify.org",
+    "maintained": "James Halliday et al.",
     "avatar": "false"
   },
   {
-    "id": "should",
-    "title": "Should.js",
-    "subtitle": "Expressive, readable, framework-agnostic",
+    "id": "webpack",
+    "title": "Webpack",
+    "subtitle": "A static module bundler.",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://shouldjs.github.io/",
-    "domain": "shouldjs.github.io",
-    "maintained": "TJ Holowaychuk et al.",
+    "link": "https://webpack.js.org",
+    "domain": "browserify.org",
+    "maintained": "Tobias Koppers et al.",
     "avatar": "false"
   }
 ]
