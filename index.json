@@ -1,10 +1,32 @@
-{
-  "get": [
-    {
-      "platforms": "https://e2e-boilerplate.github.io/api/v1/platforms.json",
-      "frameworks:nodejs": "https://e2e-boilerplate.github.io/api/v1/frameworks/nodejs.json",
-      "frameworks:nodejs:none": "https://e2e-boilerplate.github.io/api/v1/frameworks/nodejs/none.json",
-      "frameworks:browser": "https://e2e-boilerplate.github.io/api/v1/frameworks/browser.json"
-    }
-  ]
-}
+[
+  "api/index.json",
+  "api/v1/frameworks/browser.json",
+  "api/v1/frameworks/nodejs.json",
+  "api/v1/frameworks/wofnodejs.json",
+  "api/v1/javascript.json",
+  "api/v1/platforms.json",
+  "api/v1/platforms/browsers/cypress/es-modules/chai/assert/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/chai/expect/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/chai/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/chai/should/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/cucumber/assert/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/cucumber/expect/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/cucumber/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/cucumber/should/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/index.json",
+  "api/v1/platforms/browsers/cypress/es-modules/jest/index.json",
+  "api/v1/platforms/browsers/cypress/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/browserify/chai/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/browserify/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/browserify/jest/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/null/chai/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/null/cucumber/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/null/jest/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/webpack/chai/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/webpack/index.json",
+  "api/v1/platforms/browsers/cypress/typescript/webpack/jest/index.json",
+  "api/v1/platforms/browsers/index.json",
+  "api/v1/platforms/index.json",
+  "api/v1/platforms/nodejs/index.json"
+]
