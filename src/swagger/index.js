@@ -1,0 +1,87 @@
+const { readFileSync, writeFileSync } = require("fs");
+const { userInfo } = require("os");
+const user = userInfo().username;
+const { logger } = require("../common");
+
+const rootDir = `/Users/${user}/Documents/e2e-boilerplate`;
+
+const swagger = {
+  swagger: "2.0",
+  info: {
+    description:
+      "A documentation for the static API for the e2e-boilerplate Picker application.",
+    version: "1.0.0",
+    title: "e2e Boilerplate",
+    contact: {
+      email: "e2eboilerplate@gmail.com",
+    },
+    license: {
+      name: "MIT",
+      url: "https://github.com/e2e-boilerplate/swagger/blob/master/LICENSE",
+    },
+  },
+  host: "e2e-boilerplate.github.io",
+  basePath: "/api/v1",
+  tags: [],
+  schemes: ["https"],
+  paths: {},
+  externalDocs: {
+    description: "Find out more about e2e Boilerplate",
+    url: "https://github.com/e2e-boilerplate",
+  },
+};
+
+function buildTags() {
+  const data = readFileSync("./src/swagger/tags.json");
+  const tagsMeta = JSON.parse(data);
+
+  tagsMeta.forEach((tag) => {
+    const { name, description, url } = tag;
+    const temp = {
+      name,
+      description,
+      externalDocs: {
+        description: "Find out more",
+        url,
+      },
+    };
+
+    swagger.tags.push(temp);
+  });
+}
+
+buildTags();
+
+function buildPathKeys() {
+  const data = readFileSync("./src/swagger/paths.json");
+  const pathsMeta = JSON.parse(data);
+
+  pathsMeta.forEach((path) => {
+    if (path !== "api/index.json") {
+      const shortPath = path.substring(6);
+      swagger.paths[shortPath] = {
+        get: {
+          tags: ["cypress"], // TODO get framework name dynamically
+          summary: "Todo",
+          description: "Todo",
+          produces: ["application/json"],
+          responses: {
+            "200": {
+              description: "OK",
+            },
+          },
+        },
+      };
+    }
+  });
+}
+
+buildPathKeys();
+
+try {
+  const formatted = JSON.stringify(swagger, null, 2);
+  writeFileSync("./src/swagger/swagger.json", formatted, "utf8");
+  writeFileSync(`${rootDir}/swagger/swagger.json`, formatted, "utf8");
+} catch(error) {
+  logger.error(`${_filename}: ${error}`);
+}
