@@ -48,7 +48,7 @@
     "mongodb": "^3.5.7",
     "pino": "^6.3.2",
     "pino-pretty": "^4.0.0",
-    "prettier": "2.0.4",
+    "prettier": "2.0.5",
     "pretty-quick": "2.0.1"
   },
   "lint-staged": {
