@@ -42,7 +42,6 @@ const data = [
   { name: "babel-jest", count: 0 },
 ];
 
-/* disable-eslint */
 // To reset db once development finished WIP
 client.connect((err) => {
   const collection = client.db("picker").collection("click");

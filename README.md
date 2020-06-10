@@ -1,12 +1,32 @@
-# API
-Static data source. [link](https://e2e-boilerplate.github.io/api/)
-
-## Platforms
-
-    GET https://e2e-boilerplate.github.io/api/v1/platforms.json
-    
-## Frameworks
-    
-    GET https://e2e-boilerplate.github.io/api/v1/frameworks/{name}.json
-    
-name { nodejs, browser, wofnodejs}
+| No | Path                                                                    |
+| :- | :---------------------------------------------------------------------- |
+| 1  | api/index.json                                                          |
+| 2  | api/v1/frameworks/browser.json                                          |
+| 3  | api/v1/frameworks/nodejs.json                                           |
+| 4  | api/v1/frameworks/wofnodejs.json                                        |
+| 5  | api/v1/javascript.json                                                  |
+| 6  | api/v1/platforms.json                                                   |
+| 7  | api/v1/platforms/browsers/cypress/es-modules/chai/assert/index.json     |
+| 8  | api/v1/platforms/browsers/cypress/es-modules/chai/expect/index.json     |
+| 9  | api/v1/platforms/browsers/cypress/es-modules/chai/index.json            |
+| 10 | api/v1/platforms/browsers/cypress/es-modules/chai/should/index.json     |
+| 11 | api/v1/platforms/browsers/cypress/es-modules/cucumber/assert/index.json |
+| 12 | api/v1/platforms/browsers/cypress/es-modules/cucumber/expect/index.json |
+| 13 | api/v1/platforms/browsers/cypress/es-modules/cucumber/index.json        |
+| 14 | api/v1/platforms/browsers/cypress/es-modules/cucumber/should/index.json |
+| 15 | api/v1/platforms/browsers/cypress/es-modules/index.json                 |
+| 16 | api/v1/platforms/browsers/cypress/es-modules/jest/index.json            |
+| 17 | api/v1/platforms/browsers/cypress/index.json                            |
+| 18 | api/v1/platforms/browsers/cypress/typescript/browserify/chai/index.json |
+| 19 | api/v1/platforms/browsers/cypress/typescript/browserify/index.json      |
+| 20 | api/v1/platforms/browsers/cypress/typescript/browserify/jest/index.json |
+| 21 | api/v1/platforms/browsers/cypress/typescript/index.json                 |
+| 22 | api/v1/platforms/browsers/cypress/typescript/null/chai/index.json       |
+| 23 | api/v1/platforms/browsers/cypress/typescript/null/cucumber/index.json   |
+| 24 | api/v1/platforms/browsers/cypress/typescript/null/jest/index.json       |
+| 25 | api/v1/platforms/browsers/cypress/typescript/webpack/chai/index.json    |
+| 26 | api/v1/platforms/browsers/cypress/typescript/webpack/index.json         |
+| 27 | api/v1/platforms/browsers/cypress/typescript/webpack/jest/index.json    |
+| 28 | api/v1/platforms/browsers/index.json                                    |
+| 29 | api/v1/platforms/index.json                                             |
+| 30 | api/v1/platforms/nodejs/index.json                                      |
