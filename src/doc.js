@@ -1,5 +1,6 @@
-const glob = require( 'glob' );
+const glob = require("glob");
+const { logger } = require("./common");
 
-glob( 'api/**/*.json', ( err, files ) => {
-    console.log( files );
+glob("api/**/*.json", (err, files) => {
+  logger.info(files);
 });
