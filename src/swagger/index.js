@@ -53,6 +53,24 @@ function buildTags() {
 
 buildTags();
 
+function getFramework(path) {
+  if (path === "/platforms/index.json") {
+    return "platforms";
+  }
+
+  if (path === "/platforms/nodejs/index.json") {
+    return "nodejs";
+  }
+
+  if (path === "/platforms/browsers/index.json") {
+    return "browsers";
+  }
+
+  const framework = path.split("/");
+
+  return framework.length >= 3 ? framework[3] : "";
+}
+
 function buildPathKeys() {
   const data = readFileSync("./src/swagger/paths.json");
   const pathsMeta = JSON.parse(data);
@@ -60,9 +78,10 @@ function buildPathKeys() {
   pathsMeta.forEach((path) => {
     if (path !== "api/index.json") {
       const shortPath = path.substring(6);
+      const tags = getFramework(shortPath);
       swagger.paths[shortPath] = {
         get: {
-          tags: ["cypress"], // TODO get framework name dynamically
+          tags: [tags],
           summary: "Todo",
           description: "Todo",
           produces: ["application/json"],

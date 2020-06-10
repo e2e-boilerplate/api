@@ -55,7 +55,7 @@
     "/frameworks/browser.json": {
       "get": {
         "tags": [
-          "cypress"
+          ""
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -72,7 +72,7 @@
     "/frameworks/nodejs.json": {
       "get": {
         "tags": [
-          "cypress"
+          ""
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -89,7 +89,7 @@
     "/frameworks/wofnodejs.json": {
       "get": {
         "tags": [
-          "cypress"
+          ""
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -106,7 +106,7 @@
     "/javascript.json": {
       "get": {
         "tags": [
-          "cypress"
+          ""
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -123,7 +123,7 @@
     "/platforms.json": {
       "get": {
         "tags": [
-          "cypress"
+          ""
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -497,7 +497,7 @@
     "/platforms/browsers/index.json": {
       "get": {
         "tags": [
-          "cypress"
+          "browsers"
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -514,7 +514,7 @@
     "/platforms/index.json": {
       "get": {
         "tags": [
-          "cypress"
+          "platforms"
         ],
         "summary": "Todo",
         "description": "Todo",
@@ -531,7 +531,7 @@
     "/platforms/nodejs/index.json": {
       "get": {
         "tags": [
-          "cypress"
+          "nodejs"
         ],
         "summary": "Todo",
         "description": "Todo",
