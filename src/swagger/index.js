@@ -1,5 +1,6 @@
 const { readFileSync, writeFileSync } = require("fs");
 const { userInfo } = require("os");
+
 const user = userInfo().username;
 const { logger } = require("../common");
 
@@ -82,6 +83,7 @@ try {
   const formatted = JSON.stringify(swagger, null, 2);
   writeFileSync("./src/swagger/swagger.json", formatted, "utf8");
   writeFileSync(`${rootDir}/swagger/swagger.json`, formatted, "utf8");
-} catch(error) {
+} catch (error) {
+  // eslint-disable-next-line no-undef
   logger.error(`${_filename}: ${error}`);
 }

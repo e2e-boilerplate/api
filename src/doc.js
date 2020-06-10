@@ -18,6 +18,7 @@ glob("api/**/*.json", (err, files) => {
     writeFileSync("./src/swagger/paths.json", formatted, "utf8");
     writeFileSync("./api/index.json", formatted, "utf8");
   } catch (error) {
+    // eslint-disable-next-line no-undef
     logger.error(`${_filename}: ${error}`);
   }
 });
