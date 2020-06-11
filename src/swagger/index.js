@@ -82,8 +82,6 @@ function buildPathKeys() {
       swagger.paths[shortPath] = {
         get: {
           tags: [tags],
-          summary: "Todo",
-          description: "Todo",
           produces: ["application/json"],
           responses: {
             "200": {

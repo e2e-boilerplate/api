@@ -12,6 +12,7 @@
     "cypress": "node src/cypress.js",
     "nightwatch": "node src/nightwatch.js",
     "playwright": "node src/playwright.js",
+    "protractor": "node src/protractor.js",
     "db:reset": "node ./mongo -- WIP don't use",
     "lint": "npx eslint --ext .js ./ --fix",
     "deploye": "node ."

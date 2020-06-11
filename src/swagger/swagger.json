@@ -73,8 +73,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -90,8 +88,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -107,8 +103,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -124,8 +118,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -141,8 +133,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -158,8 +148,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -175,8 +163,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -192,8 +178,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -209,8 +193,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -226,8 +208,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -243,8 +223,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -260,8 +238,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -277,8 +253,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -294,8 +268,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -311,8 +283,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -328,8 +298,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -345,8 +313,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -362,8 +328,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -379,8 +343,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -396,8 +358,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -413,8 +373,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -430,8 +388,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -447,8 +403,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -464,8 +418,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -481,8 +433,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -498,8 +448,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -515,8 +463,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -532,8 +478,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -549,8 +493,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -566,8 +508,6 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -583,8 +523,6 @@
         "tags": [
           "browsers"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -600,8 +538,6 @@
         "tags": [
           "platforms"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -617,8 +553,6 @@
         "tags": [
           "nodejs"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -634,8 +568,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -651,8 +583,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -668,8 +598,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -685,8 +613,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -702,8 +628,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -719,8 +643,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -736,8 +658,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -753,8 +673,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -770,8 +688,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -787,8 +703,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -804,8 +718,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -821,8 +733,6 @@
         "tags": [
           "nightwatch"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -838,8 +748,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -855,8 +763,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -872,8 +778,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -889,8 +793,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -906,8 +808,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -923,8 +823,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -940,8 +838,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -957,8 +853,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -974,8 +868,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -991,8 +883,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1008,8 +898,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1025,8 +913,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1042,8 +928,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1059,8 +943,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1076,8 +958,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1093,8 +973,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1110,8 +988,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1127,8 +1003,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1144,8 +1018,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1161,8 +1033,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1178,8 +1048,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1195,8 +1063,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1212,8 +1078,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1229,8 +1093,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1246,8 +1108,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1263,8 +1123,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1280,8 +1138,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1297,8 +1153,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1314,8 +1168,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1331,8 +1183,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1348,8 +1198,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1365,8 +1213,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1382,8 +1228,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1399,8 +1243,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1416,8 +1258,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1433,8 +1273,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1450,8 +1288,6 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -1467,8 +1303,786 @@
         "tags": [
           "playwright"
         ],
-        "summary": "Todo",
-        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/babel/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/ts-node/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/protractor/typescript/tsc/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
         "produces": [
           "application/json"
         ],
