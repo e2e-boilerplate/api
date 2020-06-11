@@ -3,8 +3,14 @@ const { stringify, sort } = require("../lib/common");
 const { ASSERT, EXPECT, SHOULD } = require("./common/assertion");
 const { BROWSERIFY, DEFAULT, WEBPACK } = require("./common/helpers");
 const { CHAI, CUCUMBER, JEST } = require("./common/runner");
+const { ESMODULES, TYPESCRIPT } = require("./common/javascript");
 
 const BASE = "./api/v1/platforms/browsers/cypress/";
+
+(() => {
+  const data = stringify(sort([ESMODULES, TYPESCRIPT]));
+  writeFileSync(`${BASE}index.json`, data, "utf8");
+})();
 
 (() => {
   const data = stringify(sort([CHAI, CUCUMBER, JEST]));
@@ -38,6 +44,11 @@ const BASE = "./api/v1/platforms/browsers/cypress/";
 (() => {
   const data = stringify(sort([EXPECT]));
   writeFileSync(`${BASE}es-modules/jest/index.json`, data, "utf8");
+})();
+
+(() => {
+  const data = stringify(sort([EXPECT]));
+  writeFileSync(`${BASE}es-modules/jest/expect/index.json`, data, "utf8");
 })();
 
 (() => {
@@ -75,7 +86,63 @@ const BASE = "./api/v1/platforms/browsers/cypress/";
 })();
 
 (() => {
+  const data = stringify(sort([ASSERT]));
+  writeFileSync(
+    `${BASE}typescript/browserify/chai/assert/index.json`,
+    data,
+    "utf8"
+  );
+  writeFileSync(
+    `${BASE}typescript/webpack/chai/assert/index.json`,
+    data,
+    "utf8"
+  );
+})();
+
+(() => {
+  const data = stringify(sort([EXPECT]));
+  writeFileSync(
+    `${BASE}typescript/browserify/chai/expect/index.json`,
+    data,
+    "utf8"
+  );
+  writeFileSync(
+    `${BASE}typescript/webpack/chai/expect/index.json`,
+    data,
+    "utf8"
+  );
+})();
+
+(() => {
+  const data = stringify(sort([SHOULD]));
+  writeFileSync(
+    `${BASE}typescript/browserify/chai/should/index.json`,
+    data,
+    "utf8"
+  );
+  writeFileSync(
+    `${BASE}typescript/webpack/chai/should/index.json`,
+    data,
+    "utf8"
+  );
+})();
+
+(() => {
   const data = stringify(sort([EXPECT]));
   writeFileSync(`${BASE}typescript/browserify/jest/index.json`, data, "utf8");
   writeFileSync(`${BASE}typescript/webpack/jest/index.json`, data, "utf8");
+})();
+
+(() => {
+  const data = stringify(sort([EXPECT]));
+  writeFileSync(
+    `${BASE}typescript/browserify/jest/expect/index.json`,
+    data,
+    "utf8"
+  );
+  writeFileSync(
+    `${BASE}typescript/webpack/jest/expect/index.json`,
+    data,
+    "utf8"
+  );
 })();

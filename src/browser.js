@@ -5,5 +5,5 @@ const { CYPRESS } = require("./common/frameworks");
 
 (() => {
   const data = stringify(sort([CYPRESS]));
-  writeFileSync("./api/v1/platforms/browser/index.json", data, "utf8");
+  writeFileSync("./api/v1/platforms/browsers/index.json", data, "utf8");
 })();

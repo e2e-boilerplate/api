@@ -5,7 +5,7 @@
     "url": "https://github.com/e2e-boilerplate"
   },
   {
-    "name": "browser",
+    "name": "browsers",
     "description": "Browser-land for JavaScript e2e test automation",
     "url": "https://github.com/e2e-boilerplate"
   },
@@ -17,6 +17,11 @@
   {
     "name": "cypress",
     "description": "Cypress boilerplate building blocks",
+    "url": "https://github.com/e2e-boilerplate"
+  },
+  {
+    "name": "nightwatch",
+    "description": "Nightwatch boilerplate building blocks",
     "url": "https://github.com/e2e-boilerplate"
   }
 ]

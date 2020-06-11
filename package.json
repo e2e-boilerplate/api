@@ -7,12 +7,13 @@
     "deploye": "node .",
     "lint": "npx eslint --ext .js ./ --fix",
     "swagger": "node ./src/swagger/",
-    "db:reset": "node ./mongo",
     "doc": "node src/doc.js",
     "platform": "node src/platform.js",
     "browser": "node src/browser.js",
     "nodejs": "node src/nodejs.js",
-    "cypress": "node src/cypress.js"
+    "cypress": "node src/cypress.js",
+    "nightwatch": "node src/nightwatch.js",
+    "db:reset": "node ./mongo -- WIP don't use"
   },
   "repository": {
     "type": "git",

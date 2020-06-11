@@ -103,6 +103,5 @@ try {
   writeFileSync("./src/swagger/swagger.json", formatted, "utf8");
   writeFileSync(`${rootDir}/swagger/swagger.json`, formatted, "utf8");
 } catch (error) {
-  // eslint-disable-next-line no-undef
-  logger.error(`${_filename}: ${error}`);
+  logger.error(error);
 }
