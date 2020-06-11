@@ -23,5 +23,10 @@
     "name": "nightwatch",
     "description": "Nightwatch boilerplate building blocks",
     "url": "https://github.com/e2e-boilerplate"
+  },
+  {
+    "name": "playwright",
+    "description": "Playwright boilerplate building blocks",
+    "url": "https://github.com/e2e-boilerplate"
   }
 ]

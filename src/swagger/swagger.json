@@ -54,6 +54,14 @@
         "description": "Find out more",
         "url": "https://github.com/e2e-boilerplate"
       }
+    },
+    {
+      "name": "playwright",
+      "description": "Playwright boilerplate building blocks",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
     }
   ],
   "schemes": [
@@ -812,6 +820,652 @@
       "get": {
         "tags": [
           "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/cucumber/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/jest/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/babel/ava/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/babel/jest/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/ts-jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/ts-jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/ts-jest/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/ts-node/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/ts-node/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/playwright/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
         ],
         "summary": "Todo",
         "description": "Todo",

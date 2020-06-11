@@ -4,16 +4,17 @@
   "description": "Static data source.",
   "main": "index.js",
   "scripts": {
-    "deploye": "node .",
-    "lint": "npx eslint --ext .js ./ --fix",
-    "swagger": "node ./src/swagger/",
     "doc": "node src/doc.js",
+    "swagger": "node ./src/swagger/",
     "platform": "node src/platform.js",
     "browser": "node src/browser.js",
     "nodejs": "node src/nodejs.js",
     "cypress": "node src/cypress.js",
     "nightwatch": "node src/nightwatch.js",
-    "db:reset": "node ./mongo -- WIP don't use"
+    "playwright": "node src/playwright.js",
+    "db:reset": "node ./mongo -- WIP don't use",
+    "lint": "npx eslint --ext .js ./ --fix",
+    "deploye": "node ."
   },
   "repository": {
     "type": "git",
