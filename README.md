@@ -173,4 +173,5 @@
 | 171 | api/v1/platforms/nodejs/puppeteer/typescript/ts-jest/jest/index.json               |
 | 172 | api/v1/platforms/nodejs/puppeteer/typescript/ts-node/index.json                    |
 | 173 | api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/assert/index.json     |
-| 174 | api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/index.json            |
+| 174 | api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/expect/index.json     |
+| 175 | api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/index.json            |

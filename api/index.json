@@ -172,5 +172,6 @@
   "api/v1/platforms/nodejs/puppeteer/typescript/ts-jest/jest/index.json",
   "api/v1/platforms/nodejs/puppeteer/typescript/ts-node/index.json",
   "api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/assert/index.json",
+  "api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/expect/index.json",
   "api/v1/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/index.json"
 ]

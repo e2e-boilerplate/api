@@ -2648,6 +2648,21 @@
         }
       }
     },
+    "/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/nodejs/puppeteer/typescript/ts-node/jasmine/index.json": {
       "get": {
         "tags": [
