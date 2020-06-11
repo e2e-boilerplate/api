@@ -1,24 +1,24 @@
 [
   {
-    "id": "es-modules",
-    "title": "ES Next",
-    "subtitle": "Next version of ECMAScript",
+    "id": "assert",
+    "title": "Assert",
+    "subtitle": "Delightful JavaScript Testing.",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
-    "domain": "ecma-international.org",
-    "maintained": "Ecma International",
+    "link": "https://nodejs.org/api/assert.html",
+    "domain": "nodejs.org",
+    "maintained": "OpenJS Foundation",
     "avatar": "false"
   },
   {
-    "id": "typescript",
-    "title": "TypeScript",
-    "subtitle": "Syntactical superset of JavaScript",
+    "id": "expect",
+    "title": "Expect",
+    "subtitle": "Chainable language to construct assertions.",
     "summary": "Lorem ipsum dolor sit amet, consectetur ...",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://www.typescriptlang.org",
-    "domain": "typescriptlang.org",
-    "maintained": "Microsoft",
+    "link": "https://www.chaijs.com/api/bdd/",
+    "domain": "chaijs.com",
+    "maintained": "Jake Luer et al.",
     "avatar": "false"
   }
 ]

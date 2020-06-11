@@ -1,10 +1,5 @@
 [
   "api/index.json",
-  "api/v1/frameworks/browser.json",
-  "api/v1/frameworks/nodejs.json",
-  "api/v1/frameworks/wofnodejs.json",
-  "api/v1/javascript.json",
-  "api/v1/platforms.json",
   "api/v1/platforms/browsers/cypress/es-modules/chai/assert/index.json",
   "api/v1/platforms/browsers/cypress/es-modules/chai/expect/index.json",
   "api/v1/platforms/browsers/cypress/es-modules/chai/index.json",
@@ -28,5 +23,6 @@
   "api/v1/platforms/browsers/cypress/typescript/webpack/jest/index.json",
   "api/v1/platforms/browsers/index.json",
   "api/v1/platforms/index.json",
-  "api/v1/platforms/nodejs/index.json"
+  "api/v1/platforms/nodejs/index.json",
+  "api/v1/platforms/nodejs/nightwatch/index.json"
 ]
