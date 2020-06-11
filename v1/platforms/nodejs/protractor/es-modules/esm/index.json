@@ -1,0 +1,24 @@
+[
+  {
+    "id": "jasmine",
+    "title": "Jasmine",
+    "subtitle": "Behavior-Driven JavaScript.",
+    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://jasmine.github.io",
+    "domain": "jasmine.github.io",
+    "maintained": "Pivotal Labs",
+    "avatar": "false"
+  },
+  {
+    "id": "mocha",
+    "title": "Mocha",
+    "subtitle": "Feature-rich JavaScript test framework.",
+    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://mochajs.org",
+    "domain": "mochajs.org",
+    "maintained": "OpenJS Foundation",
+    "avatar": "false"
+  }
+]
