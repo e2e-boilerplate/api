@@ -13,6 +13,7 @@
     "nightwatch": "node src/nightwatch.js",
     "playwright": "node src/playwright.js",
     "protractor": "node src/protractor.js",
+    "puppeteer": "node src/puppeteer.js",
     "db:reset": "node ./mongo -- WIP don't use",
     "lint": "npx eslint --ext .js ./ --fix",
     "deploye": "node ."
