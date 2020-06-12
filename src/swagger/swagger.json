@@ -2677,6 +2677,831 @@
           }
         }
       }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/cucumber/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/jest/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/commonjs/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/ava/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/jest/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/mocha/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/mocha/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/mocha/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/babel/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/cucumber/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/esm/mocha/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/esm/mocha/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/esm/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-jest/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-node/ava/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-node/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-node/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "externalDocs": {
