@@ -4,8 +4,6 @@
   "description": "Static data source.",
   "main": "index.js",
   "scripts": {
-    "doc": "node src/doc.js",
-    "swagger": "node ./src/swagger/",
     "platform": "node src/platform.js",
     "browser": "node src/browser.js",
     "nodejs": "node src/nodejs.js",
@@ -20,7 +18,9 @@
     "webdriverio": "node src/webdriverio.js",
     "db:reset": "node ./mongo -- WIP don't use",
     "lint": "npx eslint --ext .js ./ --fix",
-    "deploye": "node ."
+    "deploye": "node .",
+    "doc": "node src/doc.js",
+    "swagger": "node ./src/swagger/"
   },
   "repository": {
     "type": "git",
