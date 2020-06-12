@@ -1,0 +1,13 @@
+[
+  {
+    "id": "assert",
+    "title": "Assert",
+    "subtitle": "Delightful JavaScript Testing.",
+    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://nodejs.org/api/assert.html",
+    "domain": "nodejs.org",
+    "maintained": "OpenJS Foundation",
+    "avatar": "false"
+  }
+]
