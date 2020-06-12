@@ -17,6 +17,7 @@
     "selenium-webdriver": "node src/selenium-webdriver.js",
     "testcafe": "node src/testcafe.js",
     "wd": "node src/wd.js",
+    "webdriverio": "node src/webdriverio.js",
     "db:reset": "node ./mongo -- WIP don't use",
     "lint": "npx eslint --ext .js ./ --fix",
     "deploye": "node ."

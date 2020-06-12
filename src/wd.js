@@ -10,20 +10,8 @@ const {
   JASMINE,
 } = require("./common/runner");
 const { JAVASCRIPT, ESMODULES, TYPESCRIPT } = require("./common/javascript");
-const {
-  BROWSERIFY,
-  DEFAULT,
-  WEBPACK,
-  WEBDRIVERMANAGER,
-} = require("./common/helpers");
-const {
-  BABEL,
-  ESM,
-  TSNODE,
-  TSC,
-  BABELJEST,
-  TSJEST,
-} = require("./common/translator");
+const { WEBDRIVERMANAGER } = require("./common/helpers");
+const { BABEL, TSNODE, BABELJEST, TSJEST } = require("./common/translator");
 
 const BASE = "./api/v1/platforms/nodejs/wd/";
 
