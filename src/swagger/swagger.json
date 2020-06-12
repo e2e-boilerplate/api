@@ -3502,6 +3502,306 @@
           }
         }
       }
+    },
+    "/platforms/nodejs/selenium-webdriver/typescript/ts-node/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/commonjs/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/commonjs/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/commonjs/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/commonjs/chai/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/commonjs/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/es-modules/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/es-modules/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/es-modules/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/es-modules/chai/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/es-modules/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/typescript/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/typescript/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/typescript/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/typescript/chai/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/typescript/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/testcafe/typescript/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "externalDocs": {
