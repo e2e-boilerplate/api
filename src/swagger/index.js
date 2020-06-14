@@ -64,7 +64,7 @@ function getFramework(path) {
   }
 
   if (path === "/platforms/browser/index.json") {
-    return "browsers";
+    return "browser";
   }
 
   if (path === "/dependencies/index.json") {
