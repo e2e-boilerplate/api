@@ -1,5 +1,6 @@
 const { readFileSync, writeFileSync } = require("fs");
 const { userInfo } = require("os");
+const YAML = require("json2yaml");
 
 const user = userInfo().username;
 const { logger } = require("../common");
@@ -100,10 +101,16 @@ function buildPathKeys() {
 
 buildPathKeys();
 
+function convertToYml(json) {
+  const yml = YAML.stringify(json);
+  writeFileSync(`${rootDir}/swagger/swagger.json`, yml, "utf8");
+}
+
 try {
   const formatted = JSON.stringify(swagger, null, 2);
   writeFileSync("./src/swagger/swagger.json", formatted, "utf8");
   writeFileSync(`${rootDir}/swagger/swagger.json`, formatted, "utf8");
+  convertToYml(swagger);
 } catch (error) {
   logger.error(error);
 }
