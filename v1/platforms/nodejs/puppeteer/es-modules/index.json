@@ -1,0 +1,24 @@
+[
+  {
+    "id": "babel",
+    "title": "Babel",
+    "subtitle": "Use next generation JavaScript, today.",
+    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://babeljs.io",
+    "domain": "babeljs.io",
+    "maintained": "Aaron Ang et al.",
+    "avatar": "false"
+  },
+  {
+    "id": "esm",
+    "title": "ESM",
+    "subtitle": "bundle-less ECMAScript module loader",
+    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://github.com/standard-things/esm",
+    "domain": "github.com/standard-things/esm",
+    "maintained": "John-David Dalton et al.",
+    "avatar": "false"
+  }
+]
