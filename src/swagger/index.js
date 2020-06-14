@@ -102,8 +102,8 @@ function buildPathKeys() {
 buildPathKeys();
 
 function convertToYml(json) {
-  const yml = YAML.stringify(json);
-  writeFileSync(`${rootDir}/swagger/swagger.json`, yml, "utf8");
+  const yaml = YAML.stringify(json);
+  writeFileSync(`${rootDir}/swagger/swagger.yaml`, yaml, "utf8");
 }
 
 try {
