@@ -63,7 +63,7 @@ function getFramework(path) {
     return "nodejs";
   }
 
-  if (path === "/platforms/browsers/index.json") {
+  if (path === "/platforms/browser/index.json") {
     return "browsers";
   }
 

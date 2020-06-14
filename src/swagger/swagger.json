@@ -544,7 +544,7 @@
     "/platforms/browser/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "browsers"
         ],
         "produces": [
           "application/json"
