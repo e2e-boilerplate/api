@@ -66,6 +66,10 @@ function getFramework(path) {
     return "browsers";
   }
 
+  if (path === "/dependencies/index.json") {
+    return "dependencies";
+  }
+
   const framework = path.split("/");
 
   return framework.length >= 3 ? framework[3] : "";
