@@ -4,8 +4,6 @@
   "description": "Static data source.",
   "main": "index.js",
   "scripts": {
-    "doc": "node src/doc.js",
-    "swagger": "node ./src/swagger/",
     "platform": "node src/platform.js",
     "browser": "node src/browser.js",
     "nodejs": "node src/nodejs.js",
@@ -15,9 +13,14 @@
     "protractor": "node src/protractor.js",
     "puppeteer": "node src/puppeteer.js",
     "selenium-webdriver": "node src/selenium-webdriver.js",
+    "testcafe": "node src/testcafe.js",
+    "wd": "node src/wd.js",
+    "webdriverio": "node src/webdriverio.js",
     "db:reset": "node ./mongo -- WIP don't use",
     "lint": "npx eslint --ext .js ./ --fix",
-    "deploye": "node ."
+    "deploye": "node .",
+    "doc": "node src/doc.js",
+    "swagger": "node ./src/swagger/"
   },
   "repository": {
     "type": "git",
@@ -49,7 +52,7 @@
     "gh-pages": "^3.0.0",
     "glob": "^7.1.6",
     "husky": "4.2.5",
-    "lint-staged": "10.2.9",
+    "lint-staged": "10.2.10",
     "markdown-table": "^2.0.0",
     "mongodb": "^3.5.7",
     "pino": "^6.3.2",

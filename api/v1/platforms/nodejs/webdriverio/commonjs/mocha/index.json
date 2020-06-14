@@ -1,0 +1,13 @@
+[
+  {
+    "id": "chai",
+    "title": "Chai",
+    "subtitle": "A BDD / TDD assertion library",
+    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "link": "https://www.chaijs.com/",
+    "domain": "chaijs.com",
+    "maintained": "Jake Luer et al.",
+    "avatar": "false"
+  }
+]
