@@ -1,6 +1,6 @@
 [
   {
-    "id": "browsers",
+    "id": "browser",
     "title": "Browser",
     "subtitle": "A Web browser",
     "summary": "Run your test inside a Browser",
