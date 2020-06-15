@@ -90,7 +90,7 @@ const WEBDRIVERIO = {
 };
 
 const NOFRAMEWORK = {
-  id: "null",
+  id: "no_framework",
   title: "No Framework",
   subtitle: "Use WebDriver API directly",
   summary: "Lorem ipsum dolor sit amet ...",
