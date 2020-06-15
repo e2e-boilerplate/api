@@ -13,7 +13,7 @@ const { JAVASCRIPT, ESMODULES, TYPESCRIPT } = require("./common/javascript");
 const { WEBDRIVERMANAGER } = require("./common/helpers");
 const { BABEL, TSNODE, BABELJEST, TSJEST } = require("./common/translator");
 
-const BASE = "./api/v1/platforms/nodejs/wd/";
+const BASE = "./api/v1/platforms/nodejs/null/wd/";
 
 (() => {
   const data = stringify(sort([JAVASCRIPT, ESMODULES, TYPESCRIPT]));
