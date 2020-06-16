@@ -324,3 +324,4 @@
 | 322 | api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/assert/index.json |
 | 323 | api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/expect/index.json |
 | 324 | api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/index.json        |
+| 325 | api/v1/repositories/index.json                                                                         |

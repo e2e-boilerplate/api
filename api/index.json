@@ -322,5 +322,6 @@
   "api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/index.json",
   "api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/assert/index.json",
   "api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/expect/index.json",
-  "api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/index.json"
+  "api/v1/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/index.json",
+  "api/v1/repositories/index.json"
 ]

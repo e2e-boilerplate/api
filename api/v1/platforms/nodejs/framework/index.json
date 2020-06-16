@@ -11,17 +11,6 @@
     "avatar": "false"
   },
   {
-    "id": "no_framework",
-    "title": "No Framework",
-    "subtitle": "Use WebDriver API directly",
-    "summary": "Lorem ipsum dolor sit amet ...",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://www.w3.org/TR/webdriver/",
-    "domain": "w3.org",
-    "maintained": "Not Applicable",
-    "avatar": "false"
-  },
-  {
     "id": "playwright",
     "title": "Playwright",
     "subtitle": "Built to enable cross-browser web automation",

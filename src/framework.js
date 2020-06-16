@@ -8,20 +8,11 @@ const {
   PUPPETEER,
   TESTCAFE,
   WEBDRIVERIO,
-  NOFRAMEWORK,
 } = require("./common/frameworks");
 
 (() => {
   const data = stringify(
-    sort([
-      NIGHTWATCH,
-      PLAYWRIGHT,
-      PROTRACTOR,
-      PUPPETEER,
-      TESTCAFE,
-      WEBDRIVERIO,
-      NOFRAMEWORK,
-    ])
+    sort([NIGHTWATCH, PLAYWRIGHT, PROTRACTOR, PUPPETEER, TESTCAFE, WEBDRIVERIO])
   );
   writeFileSync("./api/v1/platforms/nodejs/framework/index.json", data, "utf8");
 })();

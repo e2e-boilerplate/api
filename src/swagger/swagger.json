@@ -70,6 +70,30 @@
         "description": "Find out more",
         "url": "https://github.com/e2e-boilerplate"
       }
+    },
+    {
+      "name": "framework",
+      "description": "List of frameworks in the e2e Boilerplate",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "no_framework",
+      "description": "List of libraries in the e2e Boilerplate",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "repositories",
+      "description": "Repositories created in the e2e Boilerplate",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
     }
   ],
   "schemes": [
@@ -4910,6 +4934,21 @@
       "get": {
         "tags": [
           "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/repositories/index.json": {
+      "get": {
+        "tags": [
+          "repositories"
         ],
         "produces": [
           "application/json"
