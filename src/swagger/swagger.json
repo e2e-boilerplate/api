@@ -1,0 +1,4929 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "A documentation for the static API for the e2e-boilerplate Picker application.",
+    "version": "1.0.0",
+    "title": "e2e Boilerplate",
+    "contact": {
+      "email": "e2eboilerplate@gmail.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://github.com/e2e-boilerplate/swagger/blob/master/LICENSE"
+    }
+  },
+  "host": "e2e-boilerplate.github.io",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "platforms",
+      "description": "Platforms for JavaScript e2e automation",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "browser",
+      "description": "Browser-land for JavaScript e2e test automation",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "nodejs",
+      "description": "Node.js land for JavaScript e2e test automation",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "cypress",
+      "description": "Cypress boilerplate building blocks",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "nightwatch",
+      "description": "Nightwatch boilerplate building blocks",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "playwright",
+      "description": "Playwright boilerplate building blocks",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "dependencies",
+      "description": "dependencies used in the e2e Boilerplate",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/dependencies/index.json": {
+      "get": {
+        "tags": [
+          "dependencies"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/cucumber/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/cucumber/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/es-modules/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/browserify/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/null/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/null/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/null/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/cypress/typescript/webpack/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browser/index.json": {
+      "get": {
+        "tags": [
+          "browser"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/index.json": {
+      "get": {
+        "tags": [
+          "platforms"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/index.json": {
+      "get": {
+        "tags": [
+          "framework"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/commonjs/assert/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/commonjs/expect/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/es-modules/babel/assert/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/es-modules/babel/expect/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/typescript/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/typescript/tsc/assert/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/typescript/tsc/expect/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/nightwatch/typescript/tsc/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/cucumber/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/jest/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/babel/ava/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/babel/jest/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/ts-jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/ts-jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/ts-jest/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/ts-node/assert/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/ts-node/expect/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/playwright/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "playwright"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/babel/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/ts-node/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/protractor/typescript/tsc/mocha/index.json": {
+      "get": {
+        "tags": [
+          "protractor"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/babel/ava/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/babel/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/babel/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/babel/jest/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-jest/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-jest/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-jest/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-jest/jest/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-node/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/puppeteer/typescript/ts-node/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "puppeteer"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/commonjs/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/commonjs/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/commonjs/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/commonjs/chai/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/commonjs/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/es-modules/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/es-modules/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/es-modules/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/es-modules/chai/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/es-modules/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/typescript/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/typescript/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/typescript/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/typescript/chai/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/typescript/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/testcafe/typescript/index.json": {
+      "get": {
+        "tags": [
+          "testcafe"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/index.json": {
+      "get": {
+        "tags": [
+          "webdriverio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/index.json": {
+      "get": {
+        "tags": [
+          "nodejs"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/index.json": {
+      "get": {
+        "tags": [
+          "no_framework"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/commonjs/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/ava/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/should/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/ava/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/tape/index.json": {
+      "get": {
+        "tags": [
+          "selenium-webdriver"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel-jest/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/ava/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-jest/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-node/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/ava/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/assert/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/expect/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/index.json": {
+      "get": {
+        "tags": [
+          "wd"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about e2e Boilerplate",
+    "url": "https://github.com/e2e-boilerplate"
+  }
+}
