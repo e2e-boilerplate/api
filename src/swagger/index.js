@@ -67,6 +67,14 @@ function getFramework(path) {
     return "browser";
   }
 
+  if (path === "/platforms/nodejs/framework/index.json") {
+    return "framework";
+  }
+
+  if (path === "/platforms/nodejs/no_framework/index.json") {
+    return "no_framework";
+  }
+
   if (path === "/dependencies/index.json") {
     return "dependencies";
   }
