@@ -1,27 +1,9 @@
 const { writeFileSync } = require("fs");
 
 const { stringify, sort } = require("../lib/common");
-const {
-  NIGHTWATCH,
-  PLAYWRIGHT,
-  PROTRACTOR,
-  PUPPETEER,
-  TESTCAFE,
-  WEBDRIVERIO,
-  NOFRAMEWORK,
-} = require("./common/frameworks");
+const { FRAMEWORK, NOFRAMEWORK } = require("./common/nodejs");
 
 (() => {
-  const data = stringify(
-    sort([
-      NIGHTWATCH,
-      PLAYWRIGHT,
-      PROTRACTOR,
-      PUPPETEER,
-      TESTCAFE,
-      WEBDRIVERIO,
-      NOFRAMEWORK,
-    ])
-  );
+  const data = stringify(sort([FRAMEWORK, NOFRAMEWORK]));
   writeFileSync("./api/v1/platforms/nodejs/index.json", data, "utf8");
 })();

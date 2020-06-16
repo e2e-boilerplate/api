@@ -5,7 +5,7 @@ const { JASMINE, MOCHA, CHAI } = require("./common/runner");
 const { JAVASCRIPT, ESMODULES, TYPESCRIPT } = require("./common/javascript");
 const { BABEL, ESM, TSNODE, TSC } = require("./common/translator");
 
-const BASE = "./api/v1/platforms/nodejs/protractor/";
+const BASE = "./api/v1/platforms/nodejs/framework/protractor/";
 
 (() => {
   const data = stringify(sort([JAVASCRIPT, ESMODULES, TYPESCRIPT]));

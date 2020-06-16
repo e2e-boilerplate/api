@@ -4,7 +4,7 @@ const { ASSERT, EXPECT, SHOULD } = require("./common/assertion");
 const { CHAI } = require("./common/runner");
 const { JAVASCRIPT, ESMODULES, TYPESCRIPT } = require("./common/javascript");
 
-const BASE = "./api/v1/platforms/nodejs/testcafe/";
+const BASE = "./api/v1/platforms/nodejs/framework/testcafe/";
 
 (() => {
   const data = stringify(sort([JAVASCRIPT, ESMODULES, TYPESCRIPT]));

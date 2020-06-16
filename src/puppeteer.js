@@ -12,7 +12,7 @@ const {
 const { JAVASCRIPT, ESMODULES, TYPESCRIPT } = require("./common/javascript");
 const { BABEL, ESM, TSNODE, TSJEST } = require("./common/translator");
 
-const BASE = "./api/v1/platforms/nodejs/puppeteer/";
+const BASE = "./api/v1/platforms/nodejs/framework/puppeteer/";
 
 (() => {
   const data = stringify(sort([JAVASCRIPT, ESMODULES, TYPESCRIPT]));

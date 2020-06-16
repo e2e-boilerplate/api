@@ -6,7 +6,7 @@ const { JAVASCRIPT, ESMODULES, TYPESCRIPT } = require("./common/javascript");
 
 const { BABEL, TSNODE } = require("./common/translator");
 
-const BASE = "./api/v1/platforms/nodejs/webdriverio/";
+const BASE = "./api/v1/platforms/nodejs/framework/webdriverio/";
 
 (() => {
   const data = stringify(sort([JAVASCRIPT, ESMODULES, TYPESCRIPT]));
