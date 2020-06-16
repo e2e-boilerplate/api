@@ -79,9 +79,13 @@ function getFramework(path) {
     return "dependencies";
   }
 
+  if (path === "/repositories/index.json") {
+    return "repositories";
+  }
+
   const framework = path.split("/");
 
-  if (framework[2] === 'browser') {
+  if (framework[2] === "browser") {
     return framework.length >= 3 ? framework[3] : "";
   }
 
@@ -96,7 +100,6 @@ function buildPathKeys() {
     if (path !== "api/index.json") {
       const shortPath = path.substring(6);
       const tags = getFramework(shortPath);
-      console.log(shortPath + '   ' + tags);
       swagger.paths[shortPath] = {
         get: {
           tags: [tags],
