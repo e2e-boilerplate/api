@@ -55,7 +55,7 @@
     "glob": "^7.1.6",
     "husky": "4.2.5",
     "json2yaml": "^1.1.0",
-    "lint-staged": "10.2.10",
+    "lint-staged": "10.2.11",
     "markdown-table": "^2.0.0",
     "mongodb": "^3.5.7",
     "pino": "^6.3.2",
