@@ -8,6 +8,7 @@ const {
   PUPPETEER,
   TESTCAFE,
   WEBDRIVERIO,
+  CYPRESS,
 } = require("./common/frameworks");
 
 (() => {
@@ -15,4 +16,13 @@ const {
     sort([NIGHTWATCH, PLAYWRIGHT, PROTRACTOR, PUPPETEER, TESTCAFE, WEBDRIVERIO])
   );
   writeFileSync("./api/v1/platforms/nodejs/framework/index.json", data, "utf8");
+})();
+
+(() => {
+  const data = stringify(sort([CYPRESS]));
+  writeFileSync(
+    "./api/v1/platforms/browser/framework/index.json",
+    data,
+    "utf8"
+  );
 })();

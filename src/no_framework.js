@@ -11,3 +11,12 @@ const { SELENIUMWEBDRIVER, WD } = require("./common/no_frameworks");
     "utf8"
   );
 })();
+
+(() => {
+  const data = stringify(sort([]));
+  writeFileSync(
+    "./api/v1/platforms/browser/no_framework/index.json",
+    data,
+    "utf8"
+  );
+})();
