@@ -85,10 +85,6 @@ function getFramework(path) {
 
   const framework = path.split("/");
 
-  if (framework[2] === "browser") {
-    return framework.length >= 3 ? framework[3] : "";
-  }
-
   return framework.length >= 4 ? framework[4] : "";
 }
 

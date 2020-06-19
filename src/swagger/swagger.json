@@ -118,7 +118,7 @@
     "/platforms/browser/framework/cypress/es-modules/chai/assert/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -133,7 +133,7 @@
     "/platforms/browser/framework/cypress/es-modules/chai/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -148,7 +148,7 @@
     "/platforms/browser/framework/cypress/es-modules/chai/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -163,7 +163,7 @@
     "/platforms/browser/framework/cypress/es-modules/chai/should/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -178,7 +178,7 @@
     "/platforms/browser/framework/cypress/es-modules/cucumber/assert/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -193,7 +193,7 @@
     "/platforms/browser/framework/cypress/es-modules/cucumber/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -208,7 +208,7 @@
     "/platforms/browser/framework/cypress/es-modules/cucumber/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -223,7 +223,7 @@
     "/platforms/browser/framework/cypress/es-modules/cucumber/should/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -238,7 +238,7 @@
     "/platforms/browser/framework/cypress/es-modules/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -253,7 +253,7 @@
     "/platforms/browser/framework/cypress/es-modules/jest/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -268,7 +268,7 @@
     "/platforms/browser/framework/cypress/es-modules/jest/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -283,7 +283,7 @@
     "/platforms/browser/framework/cypress/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -298,7 +298,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/chai/assert/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -313,7 +313,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/chai/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -328,7 +328,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/chai/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -343,7 +343,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/chai/should/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -358,7 +358,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -373,7 +373,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/jest/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -388,7 +388,7 @@
     "/platforms/browser/framework/cypress/typescript/browserify/jest/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -403,7 +403,7 @@
     "/platforms/browser/framework/cypress/typescript/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -418,7 +418,7 @@
     "/platforms/browser/framework/cypress/typescript/null/chai/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -433,7 +433,7 @@
     "/platforms/browser/framework/cypress/typescript/null/cucumber/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -448,7 +448,7 @@
     "/platforms/browser/framework/cypress/typescript/null/jest/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -463,7 +463,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/chai/assert/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -478,7 +478,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/chai/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -493,7 +493,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/chai/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -508,7 +508,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/chai/should/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -523,7 +523,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -538,7 +538,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/jest/expect/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -553,7 +553,7 @@
     "/platforms/browser/framework/cypress/typescript/webpack/jest/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "cypress"
         ],
         "produces": [
           "application/json"
@@ -568,7 +568,7 @@
     "/platforms/browser/framework/index.json": {
       "get": {
         "tags": [
-          "framework"
+          "index.json"
         ],
         "produces": [
           "application/json"
@@ -598,7 +598,7 @@
     "/platforms/browser/no_framework/index.json": {
       "get": {
         "tags": [
-          "no_framework"
+          "index.json"
         ],
         "produces": [
           "application/json"
