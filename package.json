@@ -1,0 +1,90 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Static data source.",
+  "main": "index.js",
+  "scripts": {
+    "platform": "node src/platform.js",
+    "browser": "node src/browser.js",
+    "nodejs": "node src/nodejs.js",
+    "cypress": "node src/cypress.js",
+    "cypress_s": "node src/cypress_standard.js",
+    "cypress_ns": "node src/cypress_non_standard.js",
+    "nightwatch": "node src/nightwatch.js",
+    "nightwatch_S": "node src/nightwatch_standard.js",
+    "nightwatch_ns": "node src/nightwatch_non_standard.js",
+    "playwright": "node src/playwright.js",
+    "playwright_s": "node src/playwright_standard.js",
+    "playwright_ns": "node src/playwright_non_standard.js",
+    "protractor": "node src/protractor.js",
+    "protractor_s": "node src/protractor_standard.js",
+    "protractor_ns": "node src/protractor_non_standard.js",
+    "puppeteer": "node src/puppeteer.js",
+    "puppeteer_s": "node src/puppeteer_standard.js",
+    "puppeteer_ns": "node src/puppeteer_non_standard.js",
+    "selenium-webdriver": "node src/selenium-webdriver.js",
+    "selenium-webdriver_s": "node src/selenium-webdriver_standard.js",
+    "selenium-webdriver_ns": "node src/selenium-webdriver_non_standard.js",
+    "testcafe": "node src/testcafe.js",
+    "testcafe_s": "node src/testcafe_standard.js",
+    "testcafe_ns": "node src/testcafe_non_standard.js",
+    "wd": "node src/wd.js",
+    "wd_s": "node src/wd_standard.js",
+    "wd_ns": "node src/wd_non_standard.js",
+    "webdriverio": "node src/webdriverio.js",
+    "webdriverio_s": "node src/webdriverio_standard.js",
+    "webdriverio_ns": "node src/webdriverio_non_standard.js",
+    "framework": "node src/framework.js",
+    "no_framework": "node src/no_framework.js",
+    "db:reset": "node ./mongo -- WIP don't use",
+    "lint": "npx eslint --ext .js ./ --fix",
+    "deploye": "node .",
+    "doc": "node src/doc.js",
+    "swagger": "node ./src/swagger/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/api/issues"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/api#readme",
+  "devDependencies": {
+    "husky": "4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run deploye"
+    }
+  },
+  "dependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-prettier": "3.1.3",
+    "gh-pages": "^3.0.0",
+    "glob": "^7.1.6",
+    "husky": "4.2.5",
+    "json2yaml": "^1.1.0",
+    "lint-staged": "10.2.11",
+    "markdown-table": "^2.0.0",
+    "mongodb": "^3.5.7",
+    "pino": "^6.3.2",
+    "pino-pretty": "^4.0.0",
+    "prettier": "2.0.5",
+    "pretty-quick": "2.0.1"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
