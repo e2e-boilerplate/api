@@ -16,7 +16,7 @@
   "basePath": "/api/v1",
   "tags": [
     {
-      "name": "platforms",
+      "name": "land",
       "description": "Platforms for JavaScript e2e automation",
       "externalDocs": {
         "description": "Find out more",
@@ -34,6 +34,22 @@
     {
       "name": "nodejs",
       "description": "Node.js land for JavaScript e2e test automation",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "framework",
+      "description": "List of frameworks in the e2e Boilerplate",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/e2e-boilerplate"
+      }
+    },
+    {
+      "name": "no_framework",
+      "description": "List of libraries in the e2e Boilerplate",
       "externalDocs": {
         "description": "Find out more",
         "url": "https://github.com/e2e-boilerplate"
@@ -66,22 +82,6 @@
     {
       "name": "dependencies",
       "description": "dependencies used in the e2e Boilerplate",
-      "externalDocs": {
-        "description": "Find out more",
-        "url": "https://github.com/e2e-boilerplate"
-      }
-    },
-    {
-      "name": "framework",
-      "description": "List of frameworks in the e2e Boilerplate",
-      "externalDocs": {
-        "description": "Find out more",
-        "url": "https://github.com/e2e-boilerplate"
-      }
-    },
-    {
-      "name": "no_framework",
-      "description": "List of libraries in the e2e Boilerplate",
       "externalDocs": {
         "description": "Find out more",
         "url": "https://github.com/e2e-boilerplate"
