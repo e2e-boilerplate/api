@@ -55,28 +55,28 @@ function buildTags() {
 buildTags();
 
 function getFramework(path) {
-  if (path === "/platforms/index.json") {
+  if (path === "/land/index.json") {
     return "platforms";
   }
 
-  if (path === "/platforms/nodejs/index.json") {
+  if (path === "/land/nodejs/index.json") {
     return "nodejs";
   }
 
-  if (path === "/platforms/browser/index.json") {
+  if (path === "/land/browser/index.json") {
     return "browser";
   }
 
   if (
-    path === "/platforms/nodejs/framework/index.json" ||
-    path === "/platforms/browser/framework/index.json"
+    path === "/land/nodejs/framework/index.json" ||
+    path === "/land/browser/framework/index.json"
   ) {
     return "framework";
   }
 
   if (
-    path === "/platforms/nodejs/no_framework/index.json" ||
-    path === "/platforms/browser/no_framework/index.json"
+    path === "/land/nodejs/no_framework/index.json" ||
+    path === "/land/browser/no_framework/index.json"
   ) {
     return "no_framework";
   }

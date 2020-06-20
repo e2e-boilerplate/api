@@ -598,7 +598,7 @@
     "/land/browser/framework/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "framework"
         ],
         "produces": [
           "application/json"
@@ -613,7 +613,7 @@
     "/land/browser/index.json": {
       "get": {
         "tags": [
-          null
+          "browser"
         ],
         "produces": [
           "application/json"
@@ -628,7 +628,7 @@
     "/land/browser/no_framework/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "no_framework"
         ],
         "produces": [
           "application/json"
@@ -643,7 +643,7 @@
     "/land/index.json": {
       "get": {
         "tags": [
-          ""
+          "platforms"
         ],
         "produces": [
           "application/json"
@@ -658,7 +658,7 @@
     "/land/nodejs/framework/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "framework"
         ],
         "produces": [
           "application/json"
@@ -3778,7 +3778,7 @@
     "/land/nodejs/index.json": {
       "get": {
         "tags": [
-          null
+          "nodejs"
         ],
         "produces": [
           "application/json"
@@ -3793,7 +3793,7 @@
     "/land/nodejs/no_framework/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "no_framework"
         ],
         "produces": [
           "application/json"
