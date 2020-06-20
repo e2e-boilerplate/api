@@ -56,7 +56,7 @@ buildTags();
 
 function getFramework(path) {
   if (path === "/land/index.json") {
-    return "platforms";
+    return "land";
   }
 
   if (path === "/land/nodejs/index.json") {
