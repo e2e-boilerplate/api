@@ -40,7 +40,8 @@
     "lint": "npx eslint --ext .js ./ --fix",
     "deploye": "node .",
     "doc": "node src/doc.js",
-    "swagger": "node ./src/swagger/"
+    "swagger": "node ./src/swagger/",
+    "all": "node ./src/"
   },
   "repository": {
     "type": "git",

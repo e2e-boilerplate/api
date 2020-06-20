@@ -5,5 +5,5 @@ const { FRAMEWORK, NOFRAMEWORK } = require("./common/nodejs");
 
 (() => {
   const data = stringify(sort([FRAMEWORK, NOFRAMEWORK]));
-  writeFileSync("./api/v1/platforms/browser/index.json", data, "utf8");
+  writeFileSync("./api/v1/land/browser/index.json", data, "utf8");
 })();

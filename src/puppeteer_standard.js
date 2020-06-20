@@ -5,7 +5,7 @@ const { JASMINE, MOCHA, CHAI, AVA, JEST } = require("./common/runner");
 const { COMMONJS } = require("./common/javascript");
 const { BABEL, ESM, TSNODE, TSJEST } = require("./common/translator");
 
-const BASE = "./api/v1/platforms/nodejs/framework/puppeteer/standard/";
+const BASE = "./api/v1/land/nodejs/framework/puppeteer/non_standard/";
 
 (() => {
   const data = stringify(sort([COMMONJS]));
