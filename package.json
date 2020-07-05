@@ -4,7 +4,7 @@
   "description": "Static data source.",
   "main": "index.js",
   "scripts": {
-    "platform": "node src/platform.js",
+    "land": "node src/land.js",
     "browser": "node src/browser.js",
     "nodejs": "node src/nodejs.js",
     "cypress": "node src/cypress.js",

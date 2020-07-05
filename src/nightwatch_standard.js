@@ -3,7 +3,7 @@ const { stringify, sort } = require("../lib/common");
 const { ASSERT, EXPECT } = require("./common/assertion");
 const { COMMONJS } = require("./common/javascript");
 
-const BASE = "./api/v1/land/nodejs/framework/nightwatch/standard/";
+const BASE = "./v1/land/nodejs/framework/nightwatch/standard/";
 
 (() => {
   const data = stringify(sort([COMMONJS]));

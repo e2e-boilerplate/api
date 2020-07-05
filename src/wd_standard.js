@@ -5,7 +5,7 @@ const { CHAI, CUCUMBER, JEST, MOCHA } = require("./common/runner");
 const { COMMONJS } = require("./common/javascript");
 const { WEBDRIVERMANAGER } = require("./common/helpers");
 
-const BASE = "./api/v1/land/nodejs/no_framework/wd/standard/";
+const BASE = "./v1/land/nodejs/no_framework/wd/standard/";
 
 (() => {
   const data = stringify(sort([COMMONJS]));

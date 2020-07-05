@@ -5,5 +5,5 @@ const { BROWSER, NODEJS } = require("./common/platforms");
 
 (() => {
   const data = stringify(sort([BROWSER, NODEJS]));
-  writeFileSync("./api/v1/land/index.json", data, "utf8");
+  writeFileSync("./v1/land/index.json", data, "utf8");
 })();

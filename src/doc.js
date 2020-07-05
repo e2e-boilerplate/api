@@ -3,7 +3,7 @@ const table = require("markdown-table");
 const { writeFileSync } = require("fs");
 const { logger } = require("./common");
 
-glob("api/**/*.json", (err, files) => {
+glob("v1/**/*.json", (err, files) => {
   try {
     const readme = [["No", "Path"]];
     const data = [];
@@ -16,9 +16,9 @@ glob("api/**/*.json", (err, files) => {
 
     writeFileSync("./README.md", table(readme, { align: "l" }), "utf8");
     writeFileSync("./src/swagger/paths.json", formatted, "utf8");
-    writeFileSync("./api/index.json", formatted, "utf8");
+    writeFileSync("./v1/index.json", formatted, "utf8");
   } catch (error) {
     // eslint-disable-next-line no-undef
-    logger.error(`${_filename}: ${error}`);
+    logger.error(`${__filename}: ${error}`);
   }
 });

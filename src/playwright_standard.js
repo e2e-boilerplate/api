@@ -4,7 +4,7 @@ const { ASSERT, EXPECT, SHOULD } = require("./common/assertion");
 const { JASMINE, CUCUMBER, JEST, MOCHA, CHAI } = require("./common/runner");
 const { COMMONJS } = require("./common/javascript");
 
-const BASE = "./api/v1/land/nodejs/framework/playwright/standard/";
+const BASE = "./v1/land/nodejs/framework/playwright/standard/";
 
 (() => {
   const data = stringify(sort([COMMONJS]));

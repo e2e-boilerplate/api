@@ -2,7 +2,7 @@ const { writeFileSync } = require("fs");
 const { stringify, sort } = require("../lib/common");
 const { STANDARD, NONSTANDARD } = require("./common/javascript");
 
-const BASE = "./api/v1/land/nodejs/framework/webdriverio/";
+const BASE = "./v1/land/nodejs/framework/webdriverio/";
 
 (() => {
   const data = stringify(sort([STANDARD, NONSTANDARD]));
