@@ -1,5 +1,6 @@
 [
   "v1/dependencies/index.json",
+  "v1/index.json",
   "v1/land/browser/framework/cypress/index.json",
   "v1/land/browser/framework/cypress/non_standard/es-modules/chai/assert/index.json",
   "v1/land/browser/framework/cypress/non_standard/es-modules/chai/expect/index.json",
