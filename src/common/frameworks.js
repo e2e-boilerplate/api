@@ -8,7 +8,7 @@ const CYPRESS = {
   link: "https://www.cypress.io",
   domain: "cypress.io",
   maintained: "cypress.io",
-  avatar: "false",
+  disable: "false",
 };
 
 const NIGHTWATCH = {
@@ -21,7 +21,7 @@ const NIGHTWATCH = {
   link: "https://nightwatchjs.org",
   domain: "nightwatchjs.org",
   maintained: "Pine View",
-  avatar: "false",
+  disable: "false",
 };
 
 const PLAYWRIGHT = {
@@ -34,7 +34,7 @@ const PLAYWRIGHT = {
   link: "https://playwright.dev",
   domain: "playwright.dev",
   maintained: "Microsoft",
-  avatar: "false",
+  disable: "false",
 };
 
 const PROTRACTOR = {
@@ -47,7 +47,7 @@ const PROTRACTOR = {
   link: "https://www.protractortest.org/#/",
   domain: "protractortest.org",
   maintained: "Google",
-  avatar: "false",
+  disable: "false",
 };
 
 const PUPPETEER = {
@@ -60,7 +60,7 @@ const PUPPETEER = {
   link: "https://pptr.dev",
   domain: "pptr.dev",
   maintained: "Google",
-  avatar: "false",
+  disable: "false",
 };
 
 const TESTCAFE = {
@@ -73,7 +73,7 @@ const TESTCAFE = {
   link: "https://devexpress.github.io/testcafe/",
   domain: "devexpress.github.io",
   maintained: "ThoughtWorks",
-  avatar: "false",
+  disable: "false",
 };
 
 const WEBDRIVERIO = {
@@ -86,7 +86,7 @@ const WEBDRIVERIO = {
   link: "https://webdriver.io",
   domain: "webdriver.io",
   maintained: "OpenJS Foundation",
-  avatar: "false",
+  disable: "false",
 };
 
 const NOFRAMEWORK = {
@@ -99,7 +99,7 @@ const NOFRAMEWORK = {
   link: "https://www.w3.org/TR/webdriver/",
   domain: "w3.org",
   maintained: "Not Applicable",
-  avatar: "false",
+  disable: "false",
 };
 
 module.exports = {

@@ -8,7 +8,7 @@
     "link": "https://github.com/kulshekhar/ts-jest",
     "domain": "kulshekhar/ts-jest",
     "maintained": "Huafu Gandon et al.",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "ts-node",
@@ -19,6 +19,6 @@
     "link": "https://github.com/TypeStrong/ts-node",
     "domain": "TypeStrong/ts-node",
     "maintained": "Blake Embrey et al.",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

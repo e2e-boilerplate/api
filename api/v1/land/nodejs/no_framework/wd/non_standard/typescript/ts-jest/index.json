@@ -8,6 +8,6 @@
     "link": "https://github.com/angular/webdriver-manager",
     "domain": "angular/webdriver-manager",
     "maintained": "Google",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

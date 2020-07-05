@@ -8,7 +8,7 @@ const SELENIUMWEBDRIVER = {
   link: "https://www.selenium.dev",
   domain: "selenium.dev",
   maintained: "ThoughtWorks",
-  avatar: "false",
+  disable: "false",
 };
 
 const WD = {
@@ -21,7 +21,7 @@ const WD = {
   link: "https://github.com/admc/wd",
   domain: "github.com/admc",
   maintained: "Adam Christian et al",
-  avatar: "false",
+  disable: "false",
 };
 
 module.exports = {

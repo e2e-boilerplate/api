@@ -7,7 +7,7 @@ const BROWSER = {
   link: "https://en.wikipedia.org/wiki/Web_browser",
   domain: "wikipedia.org",
   maintained: "Not Applicable",
-  avatar: "false",
+  disable: "false",
 };
 
 const NODEJS = {
@@ -19,7 +19,7 @@ const NODEJS = {
   link: "https://nodejs.org/en/",
   domain: "nodejs.org",
   maintained: "OpenJS Foundation",
-  avatar: "false",
+  disable: "false",
 };
 
 module.exports = { BROWSER, NODEJS };

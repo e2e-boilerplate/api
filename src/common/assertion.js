@@ -8,7 +8,7 @@ const ASSERT = {
   link: "https://nodejs.org/api/assert.html",
   domain: "nodejs.org",
   maintained: "OpenJS Foundation",
-  avatar: "false",
+  disable: "false",
 };
 
 const EXPECT = {
@@ -21,7 +21,7 @@ const EXPECT = {
   link: "https://www.chaijs.com/api/bdd/",
   domain: "chaijs.com",
   maintained: "Jake Luer et al.",
-  avatar: "false",
+  disable: "false",
 };
 
 const SHOULD = {
@@ -34,7 +34,7 @@ const SHOULD = {
   link: "https://shouldjs.github.io/",
   domain: "shouldjs.github.io",
   maintained: "TJ Holowaychuk et al.",
-  avatar: "false",
+  disable: "false",
 };
 
 module.exports = { ASSERT, EXPECT, SHOULD };

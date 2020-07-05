@@ -8,7 +8,7 @@
     "link": "https://cucumber.io/",
     "domain": "cucumber.io",
     "maintained": "SmartBear",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "jasmine",
@@ -19,7 +19,7 @@
     "link": "https://jasmine.github.io",
     "domain": "jasmine.github.io",
     "maintained": "Pivotal Labs",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "jest",
@@ -30,7 +30,7 @@
     "link": "https://jestjs.io/",
     "domain": "jestjs.io",
     "maintained": "Facebook",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "mocha",
@@ -41,7 +41,7 @@
     "link": "https://mochajs.org",
     "domain": "mochajs.org",
     "maintained": "OpenJS Foundation",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "tape",
@@ -52,6 +52,6 @@
     "link": "https://github.com/substack/tape",
     "domain": "substack/tape",
     "maintained": "James Halliday et al.",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

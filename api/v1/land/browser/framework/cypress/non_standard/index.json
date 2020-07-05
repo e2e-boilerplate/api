@@ -8,7 +8,7 @@
     "link": "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
     "domain": "ecma-international.org",
     "maintained": "Ecma International",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "typescript",
@@ -19,6 +19,6 @@
     "link": "https://www.typescriptlang.org",
     "domain": "typescriptlang.org",
     "maintained": "Microsoft",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

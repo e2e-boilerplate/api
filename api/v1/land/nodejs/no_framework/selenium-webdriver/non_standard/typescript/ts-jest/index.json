@@ -8,6 +8,6 @@
     "link": "https://jestjs.io/",
     "domain": "jestjs.io",
     "maintained": "Facebook",
-    "avatar": "false"
+    "disable": "false"
   }
 ]
