@@ -6,7 +6,7 @@ const BROWSER = {
   description: "Like conventional unit tests, a JavaScript end-to-end test could run completely inside a browser environment. Debugging may require the use of the browser’s developer tools, such as the browser console. ",
   link: "https://en.wikipedia.org/wiki/Web_browser",
   domain: "wikipedia.org",
-  maintained: "",
+  maintained: "Not Applicable",
   avatar: "false",
 };
 
