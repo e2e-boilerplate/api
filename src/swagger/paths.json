@@ -1,4 +1,5 @@
 [
+  "api/index.json",
   "api/v1/dependencies/index.json",
   "api/v1/index.json",
   "api/v1/land/browser/framework/cypress/index.json",
