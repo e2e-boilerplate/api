@@ -9,7 +9,7 @@ const STANDARD = {
     "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
   domain: "ecma-international.org",
   maintained: "Ecma International",
-  disable: "false",
+  disable: false,
 };
 
 const NONSTANDARD = {
@@ -23,7 +23,7 @@ const NONSTANDARD = {
     "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
   domain: "ecma-international.org",
   maintained: "Ecma International",
-  disable: "false",
+  disable: false,
 };
 
 const COMMONJS = {
@@ -37,7 +37,7 @@ const COMMONJS = {
     "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
   domain: "ecma-international.org",
   maintained: "Ecma International",
-  disable: "false",
+  disable: false,
 };
 
 const ESMODULES = {
@@ -51,7 +51,7 @@ const ESMODULES = {
     "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
   domain: "ecma-international.org",
   maintained: "Ecma International",
-  disable: "false",
+  disable: false,
 };
 
 const TYPESCRIPT = {
@@ -64,7 +64,7 @@ const TYPESCRIPT = {
   link: "https://www.typescriptlang.org",
   domain: "typescriptlang.org",
   maintained: "Microsoft",
-  disable: "false",
+  disable: false,
 };
 
 module.exports = { STANDARD, NONSTANDARD, COMMONJS, ESMODULES, TYPESCRIPT };

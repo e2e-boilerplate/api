@@ -8,7 +8,7 @@ const BROWSERIFY = {
   link: "http://browserify.org",
   domain: "browserify.org",
   maintained: "James Halliday et al.",
-  disable: "false",
+  disable: false,
 };
 
 const WEBPACK = {
@@ -21,7 +21,7 @@ const WEBPACK = {
   link: "https://webpack.js.org",
   domain: "browserify.org",
   maintained: "Tobias Koppers et al.",
-  disable: "false",
+  disable: false,
 };
 
 const DEFAULT = {
@@ -34,7 +34,7 @@ const DEFAULT = {
   link: "http://browserify.org",
   domain: "browserify.org",
   maintained: "James Halliday et al.",
-  disable: "false",
+  disable: false,
 };
 
 const WEBDRIVERMANAGER = {
@@ -47,7 +47,7 @@ const WEBDRIVERMANAGER = {
   link: "https://github.com/angular/webdriver-manager",
   domain: "angular/webdriver-manager",
   maintained: "Google",
-  disable: "false",
+  disable: false,
 };
 
 module.exports = { BROWSERIFY, DEFAULT, WEBPACK, WEBDRIVERMANAGER };

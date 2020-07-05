@@ -8,7 +8,7 @@ const FRAMEWORK = {
   link: "",
   domain: "",
   maintained: "",
-  disable: "false",
+  disable: false,
 };
 
 const NOFRAMEWORK = {
@@ -21,7 +21,7 @@ const NOFRAMEWORK = {
   link: "",
   domain: "",
   maintained: "",
-  disable: "false",
+  disable: false,
 };
 
 module.exports = { FRAMEWORK, NOFRAMEWORK };

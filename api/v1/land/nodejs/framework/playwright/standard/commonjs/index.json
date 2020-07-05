@@ -8,7 +8,7 @@
     "link": "https://cucumber.io/",
     "domain": "cucumber.io",
     "maintained": "SmartBear",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "jasmine",
@@ -19,7 +19,7 @@
     "link": "https://jasmine.github.io",
     "domain": "jasmine.github.io",
     "maintained": "Pivotal Labs",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "jest",
@@ -30,7 +30,7 @@
     "link": "https://jestjs.io/",
     "domain": "jestjs.io",
     "maintained": "Facebook",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "mocha",
@@ -41,6 +41,6 @@
     "link": "https://mochajs.org",
     "domain": "mochajs.org",
     "maintained": "OpenJS Foundation",
-    "disable": "false"
+    "disable": false
   }
 ]

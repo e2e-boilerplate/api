@@ -8,6 +8,6 @@
     "link": "https://shouldjs.github.io/",
     "domain": "shouldjs.github.io",
     "maintained": "TJ Holowaychuk et al.",
-    "disable": "false"
+    "disable": false
   }
 ]

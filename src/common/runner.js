@@ -8,7 +8,7 @@ const CHAI = {
   link: "https://www.chaijs.com/",
   domain: "chaijs.com",
   maintained: "Jake Luer et al.",
-  disable: "false",
+  disable: false,
 };
 
 const CUCUMBER = {
@@ -21,7 +21,7 @@ const CUCUMBER = {
   link: "https://cucumber.io/",
   domain: "cucumber.io",
   maintained: "SmartBear",
-  disable: "false",
+  disable: false,
 };
 
 const JEST = {
@@ -34,7 +34,7 @@ const JEST = {
   link: "https://jestjs.io/",
   domain: "jestjs.io",
   maintained: "Facebook",
-  disable: "false",
+  disable: false,
 };
 
 const JASMINE = {
@@ -47,7 +47,7 @@ const JASMINE = {
   link: "https://jasmine.github.io",
   domain: "jasmine.github.io",
   maintained: "Pivotal Labs",
-  disable: "false",
+  disable: false,
 };
 
 const AVA = {
@@ -60,7 +60,7 @@ const AVA = {
   link: "https://avajs.dev",
   domain: "avajs.dev",
   maintained: "Mark Wubben et al.",
-  disable: "false",
+  disable: false,
 };
 
 const MOCHA = {
@@ -73,7 +73,7 @@ const MOCHA = {
   link: "https://mochajs.org",
   domain: "mochajs.org",
   maintained: "OpenJS Foundation",
-  disable: "false",
+  disable: false,
 };
 
 const TAPE = {
@@ -86,7 +86,7 @@ const TAPE = {
   link: "https://github.com/substack/tape",
   domain: "substack/tape",
   maintained: "James Halliday et al.",
-  disable: "false",
+  disable: false,
 };
 
 module.exports = { CHAI, CUCUMBER, JEST, JASMINE, AVA, MOCHA, TAPE };

@@ -8,6 +8,6 @@
     "link": "https://www.chaijs.com/",
     "domain": "chaijs.com",
     "maintained": "Jake Luer et al.",
-    "disable": "false"
+    "disable": false
   }
 ]

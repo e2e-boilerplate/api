@@ -8,7 +8,7 @@
     "link": "https://mochajs.org",
     "domain": "mochajs.org",
     "maintained": "OpenJS Foundation",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "tape",
@@ -19,6 +19,6 @@
     "link": "https://github.com/substack/tape",
     "domain": "substack/tape",
     "maintained": "James Halliday et al.",
-    "disable": "false"
+    "disable": false
   }
 ]

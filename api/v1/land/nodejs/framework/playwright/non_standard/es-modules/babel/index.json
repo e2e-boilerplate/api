@@ -8,7 +8,7 @@
     "link": "https://avajs.dev",
     "domain": "avajs.dev",
     "maintained": "Mark Wubben et al.",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "jest",
@@ -19,6 +19,6 @@
     "link": "https://jestjs.io/",
     "domain": "jestjs.io",
     "maintained": "Facebook",
-    "disable": "false"
+    "disable": false
   }
 ]

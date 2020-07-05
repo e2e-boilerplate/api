@@ -8,7 +8,7 @@ const BABEL = {
   link: "https://babeljs.io",
   domain: "babeljs.io",
   maintained: "Aaron Ang et al.",
-  disable: "false",
+  disable: false,
 };
 
 const TSC = {
@@ -21,7 +21,7 @@ const TSC = {
   link: "https://www.typescriptlang.org",
   domain: "typescriptlang.org",
   maintained: "Microsoft",
-  disable: "false",
+  disable: false,
 };
 
 const ESM = {
@@ -34,7 +34,7 @@ const ESM = {
   link: "https://github.com/standard-things/esm",
   domain: "github.com/standard-things/esm",
   maintained: "John-David Dalton et al.",
-  disable: "false",
+  disable: false,
 };
 
 const TSJEST = {
@@ -47,7 +47,7 @@ const TSJEST = {
   link: "https://github.com/kulshekhar/ts-jest",
   domain: "kulshekhar/ts-jest",
   maintained: "Huafu Gandon et al.",
-  disable: "false",
+  disable: false,
 };
 
 const TSNODE = {
@@ -60,7 +60,7 @@ const TSNODE = {
   link: "https://github.com/TypeStrong/ts-node",
   domain: "TypeStrong/ts-node",
   maintained: "Blake Embrey et al.",
-  disable: "false",
+  disable: false,
 };
 
 const BABELJEST = {
@@ -73,7 +73,7 @@ const BABELJEST = {
   link: "https://jestjs.io/",
   domain: "jestjs.io",
   maintained: "Facebook",
-  disable: "false",
+  disable: false,
 };
 
 module.exports = { BABEL, TSC, ESM, TSJEST, TSNODE, BABELJEST };

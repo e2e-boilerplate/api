@@ -8,6 +8,6 @@
     "link": "https://babeljs.io",
     "domain": "babeljs.io",
     "maintained": "Aaron Ang et al.",
-    "disable": "false"
+    "disable": false
   }
 ]

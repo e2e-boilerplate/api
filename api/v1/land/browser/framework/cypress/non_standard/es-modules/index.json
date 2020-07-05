@@ -8,7 +8,7 @@
     "link": "https://www.chaijs.com/",
     "domain": "chaijs.com",
     "maintained": "Jake Luer et al.",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "cucumber",
@@ -19,7 +19,7 @@
     "link": "https://cucumber.io/",
     "domain": "cucumber.io",
     "maintained": "SmartBear",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "jest",
@@ -30,6 +30,6 @@
     "link": "https://jestjs.io/",
     "domain": "jestjs.io",
     "maintained": "Facebook",
-    "disable": "false"
+    "disable": false
   }
 ]

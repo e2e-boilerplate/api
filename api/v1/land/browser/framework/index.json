@@ -8,6 +8,6 @@
     "link": "https://www.cypress.io",
     "domain": "cypress.io",
     "maintained": "cypress.io",
-    "disable": "false"
+    "disable": false
   }
 ]
