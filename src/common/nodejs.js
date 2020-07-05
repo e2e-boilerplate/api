@@ -1,10 +1,10 @@
 const FRAMEWORK = {
   id: "framework",
   title: "Framework",
-  subtitle: "do eiusmod tempor inc",
-  summary: "Lorem ipsum dolor sit amet, con",
+  subtitle: "Use a framework",
+  summary: "Use an existing framework",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "A framework creates an abstraction, that provided a generic functionality for test automation on top of a WebDriver protocol API implementation.",
   link: "",
   domain: "",
   maintained: "",
@@ -14,10 +14,10 @@ const FRAMEWORK = {
 const NOFRAMEWORK = {
   id: "no_framework",
   title: "No Framework",
-  subtitle: "do eiusmod tempor inc",
-  summary: "Lorem ipsum dolor sit amet, con",
+  subtitle: "Use no framework",
+  summary: "Use a WebDriver API directly",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Using a WebDriver protocol API implementation API directly without specific guidance on the actual test automation implementation.",
   link: "",
   domain: "",
   maintained: "",
