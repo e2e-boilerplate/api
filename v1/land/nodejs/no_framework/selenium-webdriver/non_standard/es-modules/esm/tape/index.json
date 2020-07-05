@@ -8,6 +8,6 @@
     "link": "https://github.com/substack/tape",
     "domain": "substack/tape",
     "maintained": "James Halliday et al.",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

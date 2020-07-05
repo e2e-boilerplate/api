@@ -8,7 +8,7 @@
     "link": "https://avajs.dev",
     "domain": "avajs.dev",
     "maintained": "Mark Wubben et al.",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "jasmine",
@@ -19,7 +19,7 @@
     "link": "https://jasmine.github.io",
     "domain": "jasmine.github.io",
     "maintained": "Pivotal Labs",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "tape",
@@ -30,6 +30,6 @@
     "link": "https://github.com/substack/tape",
     "domain": "substack/tape",
     "maintained": "James Halliday et al.",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

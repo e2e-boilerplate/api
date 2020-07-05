@@ -8,7 +8,7 @@
     "link": "",
     "domain": "",
     "maintained": "",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "no_framework",
@@ -19,6 +19,6 @@
     "link": "",
     "domain": "",
     "maintained": "",
-    "avatar": "false"
+    "disable": "true"
   }
 ]

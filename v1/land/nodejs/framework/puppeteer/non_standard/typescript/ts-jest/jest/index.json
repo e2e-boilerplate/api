@@ -8,7 +8,7 @@
     "link": "https://nodejs.org/api/assert.html",
     "domain": "nodejs.org",
     "maintained": "OpenJS Foundation",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "expect",
@@ -19,6 +19,6 @@
     "link": "https://www.chaijs.com/api/bdd/",
     "domain": "chaijs.com",
     "maintained": "Jake Luer et al.",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

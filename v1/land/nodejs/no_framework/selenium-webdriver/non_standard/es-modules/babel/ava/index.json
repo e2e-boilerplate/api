@@ -8,6 +8,6 @@
     "link": "https://avajs.dev",
     "domain": "avajs.dev",
     "maintained": "Mark Wubben et al.",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

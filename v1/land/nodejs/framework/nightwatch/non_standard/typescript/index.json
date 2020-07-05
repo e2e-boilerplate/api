@@ -8,6 +8,6 @@
     "link": "https://www.typescriptlang.org",
     "domain": "typescriptlang.org",
     "maintained": "Microsoft",
-    "avatar": "false"
+    "disable": "false"
   }
 ]

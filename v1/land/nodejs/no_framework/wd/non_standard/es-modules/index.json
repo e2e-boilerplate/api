@@ -8,7 +8,7 @@
     "link": "https://babeljs.io",
     "domain": "babeljs.io",
     "maintained": "Aaron Ang et al.",
-    "avatar": "false"
+    "disable": "false"
   },
   {
     "id": "babel-jest",
@@ -19,6 +19,6 @@
     "link": "https://jestjs.io/",
     "domain": "jestjs.io",
     "maintained": "Facebook",
-    "avatar": "false"
+    "disable": "false"
   }
 ]
