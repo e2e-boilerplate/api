@@ -8,6 +8,6 @@
     "link": "https://www.chaijs.com/api/bdd/",
     "domain": "chaijs.com",
     "maintained": "Jake Luer et al.",
-    "disable": "false"
+    "disable": false
   }
 ]

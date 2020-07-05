@@ -8,7 +8,7 @@
     "link": "https://babeljs.io",
     "domain": "babeljs.io",
     "maintained": "Aaron Ang et al.",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "esm",
@@ -19,6 +19,6 @@
     "link": "https://github.com/standard-things/esm",
     "domain": "github.com/standard-things/esm",
     "maintained": "John-David Dalton et al.",
-    "disable": "false"
+    "disable": false
   }
 ]

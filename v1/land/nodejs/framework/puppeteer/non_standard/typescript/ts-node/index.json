@@ -8,6 +8,6 @@
     "link": "https://jasmine.github.io",
     "domain": "jasmine.github.io",
     "maintained": "Pivotal Labs",
-    "disable": "false"
+    "disable": false
   }
 ]

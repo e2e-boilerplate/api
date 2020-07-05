@@ -8,6 +8,6 @@
     "link": "https://nodejs.org/api/assert.html",
     "domain": "nodejs.org",
     "maintained": "OpenJS Foundation",
-    "disable": "false"
+    "disable": false
   }
 ]

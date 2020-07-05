@@ -8,7 +8,7 @@
     "link": "https://nightwatchjs.org",
     "domain": "nightwatchjs.org",
     "maintained": "Pine View",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "playwright",
@@ -19,7 +19,7 @@
     "link": "https://playwright.dev",
     "domain": "playwright.dev",
     "maintained": "Microsoft",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "protractor",
@@ -30,7 +30,7 @@
     "link": "https://www.protractortest.org/#/",
     "domain": "protractortest.org",
     "maintained": "Google",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "puppeteer",
@@ -41,7 +41,7 @@
     "link": "https://pptr.dev",
     "domain": "pptr.dev",
     "maintained": "Google",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "testcafe",
@@ -52,7 +52,7 @@
     "link": "https://devexpress.github.io/testcafe/",
     "domain": "devexpress.github.io",
     "maintained": "ThoughtWorks",
-    "disable": "false"
+    "disable": false
   },
   {
     "id": "webdriverio",
@@ -63,6 +63,6 @@
     "link": "https://webdriver.io",
     "domain": "webdriver.io",
     "maintained": "OpenJS Foundation",
-    "disable": "false"
+    "disable": false
   }
 ]
