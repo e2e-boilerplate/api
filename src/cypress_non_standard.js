@@ -5,7 +5,7 @@ const { BROWSERIFY, DEFAULT, WEBPACK } = require("./common/helpers");
 const { CHAI, CUCUMBER, JEST } = require("./common/runner");
 const { ESMODULES, TYPESCRIPT } = require("./common/javascript");
 
-const BASE = "./v1/land/browser/framework/cypress/non_standard/";
+const BASE = "./api/v1/land/browser/framework/cypress/non_standard/";
 
 (() => {
   const data = stringify(sort([ESMODULES, TYPESCRIPT]));

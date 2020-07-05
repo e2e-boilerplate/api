@@ -5,7 +5,7 @@ const { JEST, MOCHA, CHAI, AVA } = require("./common/runner");
 const { ESMODULES, TYPESCRIPT } = require("./common/javascript");
 const { BABEL, ESM, TSNODE, TSJEST } = require("./common/translator");
 
-const BASE = "./v1/land/nodejs/framework/playwright/non_standard/";
+const BASE = "./api/v1/land/nodejs/framework/playwright/non_standard/";
 
 (() => {
   const data = stringify(sort([ESMODULES, TYPESCRIPT]));

@@ -15,10 +15,10 @@ const {
   const data = stringify(
     sort([NIGHTWATCH, PLAYWRIGHT, PROTRACTOR, PUPPETEER, TESTCAFE, WEBDRIVERIO])
   );
-  writeFileSync("./v1/land/nodejs/framework/index.json", data, "utf8");
+  writeFileSync("./api/v1/land/nodejs/framework/index.json", data, "utf8");
 })();
 
 (() => {
   const data = stringify(sort([CYPRESS]));
-  writeFileSync("./v1/land/browser/framework/index.json", data, "utf8");
+  writeFileSync("./api/v1/land/browser/framework/index.json", data, "utf8");
 })();

@@ -11,7 +11,7 @@ const {
 } = require("./common/runner");
 const { COMMONJS } = require("./common/javascript");
 
-const BASE = "./v1/land/nodejs/no_framework/selenium-webdriver/standard/";
+const BASE = "./api/v1/land/nodejs/no_framework/selenium-webdriver/standard/";
 
 (() => {
   const data = stringify(sort([COMMONJS]));

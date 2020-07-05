@@ -4,7 +4,7 @@ const { ASSERT, EXPECT } = require("./common/assertion");
 const { ESMODULES, TYPESCRIPT } = require("./common/javascript");
 const { BABEL, TSC } = require("./common/translator");
 
-const BASE = "./v1/land/nodejs/framework/nightwatch/non_standard";
+const BASE = "./api/v1/land/nodejs/framework/nightwatch/non_standard";
 
 (() => {
   const data = stringify(sort([ESMODULES, TYPESCRIPT]));

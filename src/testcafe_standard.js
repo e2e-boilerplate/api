@@ -4,7 +4,7 @@ const { ASSERT, EXPECT, SHOULD } = require("./common/assertion");
 const { CHAI } = require("./common/runner");
 const { COMMONJS } = require("./common/javascript");
 
-const BASE = "./v1/land/nodejs/framework/testcafe/standard/";
+const BASE = "./api/v1/land/nodejs/framework/testcafe/standard/";
 
 (() => {
   const data = stringify(sort([COMMONJS]));
