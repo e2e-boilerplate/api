@@ -4,7 +4,7 @@ const FRAMEWORK = {
   subtitle: "Use a framework",
   summary: "Use an existing framework",
   description:
-    "A framework creates an abstraction, that provided a generic functionality for test automation on top of a WebDriver protocol API implementation.",
+    "A framework creates an abstraction to provided a generic functionality for test automation on top of a WebDriver API implementation.",
   link: "",
   domain: "",
   maintained: "",
@@ -17,7 +17,7 @@ const NOFRAMEWORK = {
   subtitle: "Use no framework",
   summary: "Use a WebDriver API directly",
   description:
-    "Using a WebDriver protocol API implementation directly without specific guidance on the actual test automation implementation.",
+    "A WebDriver API implementation could be used directly without specific guidance (framework) on the actual test automation implementation.",
   link: "",
   domain: "",
   maintained: "",
