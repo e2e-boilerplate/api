@@ -115,6 +115,21 @@
         }
       }
     },
+    "/index.json": {
+      "get": {
+        "tags": [
+          ""
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/land/browser/framework/cypress/index.json": {
       "get": {
         "tags": [
