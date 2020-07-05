@@ -17,7 +17,7 @@ const NOFRAMEWORK = {
   subtitle: "Use no framework",
   summary: "Use a WebDriver API directly",
   description:
-    "Using a WebDriver protocol API implementation API directly without specific guidance on the actual test automation implementation.",
+    "Using a WebDriver protocol API implementation directly without specific guidance on the actual test automation implementation.",
   link: "",
   domain: "",
   maintained: "",
