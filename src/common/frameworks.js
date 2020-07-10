@@ -81,7 +81,7 @@ const WEBDRIVERIO = {
   id: "webdriverio",
   title: "WebdriverIO",
   subtitle: "Next-gen browser and mobile automation",
-  summary: "Lorem ipsum dolor sit amet ...",
+  summary: "1st Class WebDriver and Puppeteer Support",
   description: "WebdriverIO can be run on the WebDriver Protocol for true cross-browser testing as well as " +
       "Chrome DevTools Protocol for Chromium-based automation using Puppeteer. " +
       "It allows you to automate any application written with modern web front-end frameworks. ",
