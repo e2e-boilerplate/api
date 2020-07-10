@@ -84,7 +84,7 @@ const WEBDRIVERIO = {
   summary: "1st Class WebDriver and Puppeteer Support",
   description: "WebdriverIO can be run on the WebDriver Protocol for true cross-browser testing as well as " +
       "Chrome DevTools Protocol for Chromium-based automation using Puppeteer. " +
-      "It allows you to automate any application written with modern web front-end frameworks. ",
+      "WebdriverIO allows you to automate any modern web front-end frameworks.",
   link: "https://webdriver.io",
   domain: "webdriver.io",
   maintained: "OpenJS Foundation",
