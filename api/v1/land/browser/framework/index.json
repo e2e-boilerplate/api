@@ -4,7 +4,7 @@
     "title": "Cypress",
     "subtitle": "Testing for anything that runs in a browser",
     "summary": "Cypress works on any front-end framework",
-    "description": "Cypress does not use Selenium. It runs in the same run-loop as your application, which enables debugging with tools like Chrome DevTools. It takes snapshots as your tests run, which makes time-travel easy.",
+    "description": "Cypress does not use Selenium. It runs in the same run-loop as your application inside a browser. Debugging is done using familiar tools like Chrome DevTools. Time-travel is possible since it takes snapshots as your tests run.",
     "link": "https://www.cypress.io",
     "domain": "cypress.io",
     "maintained": "cypress.io",
