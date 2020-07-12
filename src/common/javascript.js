@@ -1,7 +1,7 @@
 const STANDARD = {
   id: "standard",
-  title: "ECMAScript Standard JavaScript",
-  subtitle: "Standard JavaScript",
+  title: "Standard JavaScript",
+  subtitle: "ECMAScript Standard JavaScript",
   summary: "Current ECMAScript standard JavaScript",
   description: "Standard JavaScript is the current standard of JavaScript standardised by Ecma International . " +
       "Standard JavaScript is meant to ensure the interoperability of Web and server applications written in JavaScript.",
