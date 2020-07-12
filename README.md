@@ -45,11 +45,11 @@
 | 43  | api/v1/land/nodejs/framework/nightwatch/non_standard/es-modules/babel/expect/index.json                        |
 | 44  | api/v1/land/nodejs/framework/nightwatch/non_standard/es-modules/babel/index.json                               |
 | 45  | api/v1/land/nodejs/framework/nightwatch/non_standard/es-modules/index.json                                     |
-| 46  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/index.json                                     |
-| 47  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/tsc/assert/index.json                          |
-| 48  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/tsc/expect/index.json                          |
-| 49  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/tsc/index.json                                 |
-| 50  | api/v1/land/nodejs/framework/nightwatch/non_standardindex.json                                                 |
+| 46  | api/v1/land/nodejs/framework/nightwatch/non_standard/index.json                                                |
+| 47  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/index.json                                     |
+| 48  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/tsc/assert/index.json                          |
+| 49  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/tsc/expect/index.json                          |
+| 50  | api/v1/land/nodejs/framework/nightwatch/non_standard/typescript/tsc/index.json                                 |
 | 51  | api/v1/land/nodejs/framework/nightwatch/standard/commonjs/assert/index.json                                    |
 | 52  | api/v1/land/nodejs/framework/nightwatch/standard/commonjs/expect/index.json                                    |
 | 53  | api/v1/land/nodejs/framework/nightwatch/standard/commonjs/index.json                                           |
