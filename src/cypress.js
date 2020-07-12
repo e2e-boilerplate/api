@@ -5,6 +5,6 @@ const { STANDARD, NONSTANDARD } = require("./common/javascript");
 const BASE = "./api/v1/land/browser/framework/cypress/";
 
 (() => {
-  const data = stringify(sort([STANDARD, NONSTANDARD]));
+  const data = stringify(sort([NONSTANDARD, { ...STANDARD, disable: true}]));
   writeFileSync(`${BASE}index.json`, data, "utf8");
 })();

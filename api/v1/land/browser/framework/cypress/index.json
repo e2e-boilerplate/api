@@ -19,6 +19,6 @@
     "link": "https://www.ecma-international.org/publications/standards/Stnindex.htm",
     "domain": "ecma-international.org",
     "maintained": "Ecma International",
-    "disable": false
+    "disable": true
   }
 ]
