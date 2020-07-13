@@ -5275,21 +5275,6 @@
         }
       }
     },
-    "/land/nodejs/no_framework/wd/standardindex.json": {
-      "get": {
-        "tags": [
-          "wd"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/repositories/index.json": {
       "get": {
         "tags": [
