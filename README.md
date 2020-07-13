@@ -346,5 +346,4 @@
 | 344 | api/v1/land/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/chai/should/index.json            |
 | 345 | api/v1/land/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/index.json                        |
 | 346 | api/v1/land/nodejs/no_framework/wd/standard/index.json                                                         |
-| 347 | api/v1/land/nodejs/no_framework/wd/standardindex.json                                                          |
-| 348 | api/v1/repositories/index.json                                                                                 |
+| 347 | api/v1/repositories/index.json                                                                                 |

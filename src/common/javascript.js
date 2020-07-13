@@ -28,27 +28,28 @@ const NONSTANDARD = {
 
 const COMMONJS = {
   id: "commonjs",
-  title: "JavaScript",
-  subtitle: "Standard JavaScript",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  link:
-    "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
-  domain: "ecma-international.org",
-  maintained: "Ecma International",
+  title: "CommonJS",
+  subtitle: "JavaScript module system",
+  summary: "Module for JavaScript outside a browser",
+  description: "CommonJS is a module system for JavaScript applications outside of the browser, " +
+      "such as Web servers and desktop applications. " +
+      "A CommonJS module exports a specific reusable JavaScript to any dependent code.",
+  link: "https://requirejs.org/docs/commonjs.html",
+  domain: "requirejs.org",
+  maintained: "Andy Chung et al",
   disable: false,
 };
 
 const ESMODULES = {
   id: "es-modules",
   title: "ES Next",
-  subtitle: "Next version of ECMAScript",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  subtitle: "Standard JavaScript module system",
+  summary: "JavaScript module system inside and outside browser",
+  description: "JavaScript lacked one proper standard module definition format. " +
+      "ES Modules is the ECMAScript standard for working with modules in JavaScript, proposed in ES6. " +
+      "Major browsers and the Node modules working group is currently working on adding ES module support.",
   link:
-    "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
+    "http://www.ecma-international.org/ecma-262/6.0/",
   domain: "ecma-international.org",
   maintained: "Ecma International",
   disable: false,
@@ -57,10 +58,10 @@ const ESMODULES = {
 const TYPESCRIPT = {
   id: "typescript",
   title: "TypeScript",
-  subtitle: "Syntactical superset of JavaScript",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  subtitle: "A typed superset of JavaScript",
+  summary: "A typed superset of JavaScript that compiles to plain JavaScript.",
+  description: "TypeScript is a strict syntactical superset of JavaScript and adds optional static typing and compiles to plain JavaScript. " +
+      "TypeScript may be used to develop JavaScript applications for both client-side and server-side execution.",
   link: "https://www.typescriptlang.org",
   domain: "typescriptlang.org",
   maintained: "Microsoft",
