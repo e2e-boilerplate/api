@@ -1,13 +1,13 @@
 [
   {
     "id": "commonjs",
-    "title": "JavaScript",
-    "subtitle": "Standard JavaScript",
-    "summary": "Lorem ipsum dolor sit amet, consectetur ...",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "link": "https://www.ecma-international.org/publications/standards/Ecma-262.htm",
-    "domain": "ecma-international.org",
-    "maintained": "Ecma International",
+    "title": "CommonJS",
+    "subtitle": "JavaScript module system",
+    "summary": "Module for JavaScript outside a browser",
+    "description": "CommonJS is a module system for JavaScript applications outside of the browser, such as Web servers and desktop applications. A CommonJS module exports a specific reusable JavaScript to any dependent code.",
+    "link": "https://requirejs.org/docs/commonjs.html",
+    "domain": "requirejs.org",
+    "maintained": "Andy Chung et al",
     "disable": false
   }
 ]
