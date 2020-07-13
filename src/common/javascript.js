@@ -42,11 +42,10 @@ const COMMONJS = {
 
 const ESMODULES = {
   id: "es-modules",
-  title: "ES Next",
+  title: "ES Modules",
   subtitle: "Standard JavaScript module system",
   summary: "JavaScript module system inside and outside browser",
-  description: "JavaScript lacked one proper standard module definition format. " +
-      "ES Modules is the ECMAScript standard for working with modules in JavaScript, proposed in ES6. " +
+  description: "ES Modules is the ECMAScript standard for working with modules in JavaScript, proposed in ES6. " +
       "Major browsers and the Node modules working group is currently working on adding ES module support.",
   link:
     "http://www.ecma-international.org/ecma-262/6.0/",
@@ -59,7 +58,7 @@ const TYPESCRIPT = {
   id: "typescript",
   title: "TypeScript",
   subtitle: "A typed superset of JavaScript",
-  summary: "A typed superset of JavaScript that compiles to plain JavaScript.",
+  summary: "Typed superset of JavaScript that compiles to JavaScript.",
   description: "TypeScript is a strict syntactical superset of JavaScript and adds optional static typing and compiles to plain JavaScript. " +
       "TypeScript may be used to develop JavaScript applications for both client-side and server-side execution.",
   link: "https://www.typescriptlang.org",
