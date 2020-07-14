@@ -460,6 +460,21 @@
         }
       }
     },
+    "/land/browser/framework/cypress/non_standard/typescript/default/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/land/browser/framework/cypress/non_standard/typescript/default/jest/index.json": {
       "get": {
         "tags": [
