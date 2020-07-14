@@ -430,52 +430,52 @@
         }
       }
     },
+    "/land/browser/framework/cypress/non_standard/typescript/default/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/land/browser/framework/cypress/non_standard/typescript/default/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/land/browser/framework/cypress/non_standard/typescript/default/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/land/browser/framework/cypress/non_standard/typescript/index.json": {
-      "get": {
-        "tags": [
-          "cypress"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/land/browser/framework/cypress/non_standard/typescript/null/chai/index.json": {
-      "get": {
-        "tags": [
-          "cypress"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/land/browser/framework/cypress/non_standard/typescript/null/cucumber/index.json": {
-      "get": {
-        "tags": [
-          "cypress"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/land/browser/framework/cypress/non_standard/typescript/null/jest/index.json": {
       "get": {
         "tags": [
           "cypress"
