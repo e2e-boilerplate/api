@@ -57,6 +57,11 @@ const BASE = "./api/v1/land/browser/framework/cypress/non_standard/";
 })();
 
 (() => {
+  const data = stringify(sort([CHAI, JEST, CUCUMBER]));
+  writeFileSync(`${BASE}typescript/default/index.json`, data, "utf8");
+})();
+
+(() => {
   const data = stringify(sort([ASSERT, EXPECT, SHOULD]));
   writeFileSync(`${BASE}typescript/default/chai/index.json`, data, "utf8");
   writeFileSync(`${BASE}typescript/default/cucumber/index.json`, data, "utf8");
