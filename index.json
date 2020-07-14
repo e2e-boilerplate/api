@@ -24,6 +24,7 @@
   "api/v1/land/browser/framework/cypress/non_standard/typescript/browserify/jest/index.json",
   "api/v1/land/browser/framework/cypress/non_standard/typescript/default/chai/index.json",
   "api/v1/land/browser/framework/cypress/non_standard/typescript/default/cucumber/index.json",
+  "api/v1/land/browser/framework/cypress/non_standard/typescript/default/index.json",
   "api/v1/land/browser/framework/cypress/non_standard/typescript/default/jest/index.json",
   "api/v1/land/browser/framework/cypress/non_standard/typescript/index.json",
   "api/v1/land/browser/framework/cypress/non_standard/typescript/webpack/chai/assert/index.json",
