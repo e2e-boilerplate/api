@@ -58,13 +58,13 @@ const BASE = "./api/v1/land/browser/framework/cypress/non_standard/";
 
 (() => {
   const data = stringify(sort([ASSERT, EXPECT, SHOULD]));
-  writeFileSync(`${BASE}typescript/null/chai/index.json`, data, "utf8");
-  writeFileSync(`${BASE}typescript/null/cucumber/index.json`, data, "utf8");
+  writeFileSync(`${BASE}typescript/default/chai/index.json`, data, "utf8");
+  writeFileSync(`${BASE}typescript/default/cucumber/index.json`, data, "utf8");
 })();
 
 (() => {
   const data = stringify(sort([EXPECT]));
-  writeFileSync(`${BASE}typescript/null/jest/index.json`, data, "utf8");
+  writeFileSync(`${BASE}typescript/default/jest/index.json`, data, "utf8");
 })();
 
 (() => {

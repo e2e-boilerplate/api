@@ -23,10 +23,10 @@
 | 21  | api/v1/land/browser/framework/cypress/non_standard/typescript/browserify/index.json                            |
 | 22  | api/v1/land/browser/framework/cypress/non_standard/typescript/browserify/jest/expect/index.json                |
 | 23  | api/v1/land/browser/framework/cypress/non_standard/typescript/browserify/jest/index.json                       |
-| 24  | api/v1/land/browser/framework/cypress/non_standard/typescript/index.json                                       |
-| 25  | api/v1/land/browser/framework/cypress/non_standard/typescript/null/chai/index.json                             |
-| 26  | api/v1/land/browser/framework/cypress/non_standard/typescript/null/cucumber/index.json                         |
-| 27  | api/v1/land/browser/framework/cypress/non_standard/typescript/null/jest/index.json                             |
+| 24  | api/v1/land/browser/framework/cypress/non_standard/typescript/default/chai/index.json                          |
+| 25  | api/v1/land/browser/framework/cypress/non_standard/typescript/default/cucumber/index.json                      |
+| 26  | api/v1/land/browser/framework/cypress/non_standard/typescript/default/jest/index.json                          |
+| 27  | api/v1/land/browser/framework/cypress/non_standard/typescript/index.json                                       |
 | 28  | api/v1/land/browser/framework/cypress/non_standard/typescript/webpack/chai/assert/index.json                   |
 | 29  | api/v1/land/browser/framework/cypress/non_standard/typescript/webpack/chai/expect/index.json                   |
 | 30  | api/v1/land/browser/framework/cypress/non_standard/typescript/webpack/chai/index.json                          |
