@@ -1,7 +1,7 @@
 const BROWSERIFY = {
   id: "browserify",
   title: "Browserify",
-  subtitle: "Dorganize your browser code and load modules",
+  subtitle: "Organize your browser code and load modules",
   summary: "Lorem ipsum dolor sit amet, consectetur ...",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -26,14 +26,14 @@ const WEBPACK = {
 
 const DEFAULT = {
   id: "null",
-  title: "Browserify",
-  subtitle: "Dorganize your browser code and load modules",
+  title: "Default",
+  subtitle: "Default ...",
   summary: "Lorem ipsum dolor sit amet, consectetur ...",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  link: "http://browserify.org",
-  domain: "browserify.org",
-  maintained: "James Halliday et al.",
+  link: "http://example.com",
+  domain: "example.org",
+  maintained: "Default et al.",
   disable: false,
 };
 
