@@ -2,9 +2,9 @@ const BROWSERIFY = {
   id: "browserify",
   title: "Browserify",
   subtitle: "Organize your browser code and load modules",
-  summary: "Compile node modules for browser",
+  summary: "Compile Node.js modules for browser",
   description: "Browserify is a tool for compiling node-flavored modules for the browser. " +
-      "Browserify lets you use require in the browser, the same way you'd use it in Node. " +
+      "Browserify lets you use require in the browser, the same way you'd use it in Node.js. " +
       "It brings resources from NPM ecosystem off of the server, and into the client.",
   link: "http://browserify.org",
   domain: "browserify.org",
