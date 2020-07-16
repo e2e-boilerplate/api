@@ -3,8 +3,9 @@ const CHAI = {
   title: "Chai",
   subtitle: "A BDD / TDD assertion library",
   summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description: "Chai.js is a BDD / TDD assertion library for Node.js and the browser that can be delightfully " +
+      "paired with any javascript testing framework. " +
+      "Chai.js provides three styles of assertions.",
   link: "https://www.chaijs.com/",
   domain: "chaijs.com",
   maintained: "Jake Luer et al.",
@@ -15,9 +16,10 @@ const CUCUMBER = {
   id: "cucumber",
   title: "Cucumber.js",
   subtitle: "Automated tests written in plain language.",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
+  summary: "Cucumber.js is the JavaScript implementation of Cucumber",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Cucumber is a tool for running automated tests written in plain language and can be read by anyone on your team. " +
+      "Because they can be read by anyone, you can use them to help improve communication, collaboration, and trust in your team.",
   link: "https://cucumber.io/",
   domain: "cucumber.io",
   maintained: "SmartBear",
@@ -28,9 +30,9 @@ const JEST = {
   id: "jest",
   title: "Jest",
   subtitle: "Delightful JavaScript Testing.",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  summary: "Jest focus on simplicity",
+  description: "Jest aims to work out of the box, config free, on most JavaScript projects. " +
+      "Tests are parallelized by running them in their own processes to maximize performance.",
   link: "https://jestjs.io/",
   domain: "jestjs.io",
   maintained: "Facebook",
