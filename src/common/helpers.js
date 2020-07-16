@@ -27,7 +27,7 @@ const WEBPACK = {
 };
 
 const DEFAULT = {
-  id: "null",
+  id: "default",
   title: "Default",
   subtitle: "Default ...",
   summary: "Default summary ...",
