@@ -2,9 +2,10 @@ const BROWSERIFY = {
   id: "browserify",
   title: "Browserify",
   subtitle: "Organize your browser code and load modules",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  summary: "Compile node modules for browser",
+  description: "Browserify is a tool for compiling node-flavored modules for the browser. " +
+      "Browserify lets you use require in the browser, the same way you'd use it in Node. " +
+      "It brings resources from NPM ecosystem off of the server, and into the client.",
   link: "http://browserify.org",
   domain: "browserify.org",
   maintained: "James Halliday et al.",
@@ -15,9 +16,10 @@ const WEBPACK = {
   id: "webpack",
   title: "Webpack",
   subtitle: "A static module bundler.",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  summary: "Webpack is an open-source JavaScript module bundler",
+  description: "Webpack is a static module bundler for modern JavaScript applications. " +
+      "When Webpack processes your application, it internally builds a dependency graph that maps " +
+      "every module your project needs and generates one or more bundles.",
   link: "https://webpack.js.org",
   domain: "browserify.org",
   maintained: "Tobias Koppers et al.",
@@ -28,9 +30,11 @@ const DEFAULT = {
   id: "null",
   title: "Default",
   subtitle: "Default ...",
-  summary: "Lorem ipsum dolor sit amet, consectetur ...",
+  summary: "Default summary ...",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore " +
+      "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut" +
+      " aliquip ex ea commodo consequat.",
   link: "http://example.com",
   domain: "example.org",
   maintained: "Default et al.",
